@@ -31,7 +31,3388 @@ WPL_TEAMS = ["MI-W", "DC-W", "RCB-W", "UPW", "GG"]
 ​==============================================================================
 ​EMBEDDED 338 PLAYERS DATA (250 IPL + 88 WPL — NO EXTERNAL FILE NEEDED!)
 ​==============================================================================
-​EMBEDDED_PLAYERS = [{"id":1,"name":"KL Rahul","role":"Wicketkeeper","base_price":2.0,"nationality":"Indian","set":2,"set_name":"Indian WKs (2 Cr)","league":"IPL"},{"id":2,"name":"Ishan Kishan","role":"Wicketkeeper","base_price":2.0,"nationality":"Indian","set":2,"set_name":"Indian WKs (2 Cr)","league":"IPL"},{"id":3,"name":"Dhruv Jurel","role":"Wicketkeeper","base_price":2.0,"nationality":"Indian","set":2,"set_name":"Indian WKs (2 Cr)","league":"IPL"},{"id":4,"name":"Jitesh Sharma","role":"Wicketkeeper","base_price":2.0,"nationality":"Indian","set":2,"set_name":"Indian WKs (2 Cr)","league":"IPL"},{"id":5,"name":"Rishabh Pant","role":"Wicketkeeper","base_price":2.0,"nationality":"Indian","set":2,"set_name":"Indian WKs (2 Cr)","league":"IPL"},{"id":6,"name":"Sanju Samson","role":"Wicketkeeper","base_price":2.0,"nationality":"Indian","set":2,"set_name":"Indian WKs (2 Cr)","league":"IPL"},{"id":7,"name":"MS Dhoni","role":"Wicketkeeper","base_price":2.0,"nationality":"Indian","set":2,"set_name":"Indian WKs (2 Cr)","league":"IPL"},{"id":8,"name":"Shreyas Iyer","role":"Batter","base_price":2.0,"nationality":"Indian","set":1,"set_name":"Indian Batters (2 Cr)","league":"IPL"},{"id":9,"name":"Suryakumar Yadav","role":"Batter","base_price":2.0,"nationality":"Indian","set":1,"set_name":"Indian Batters (2 Cr)","league":"IPL"},{"id":10,"name":"Yashasvi Jaiswal","role":"Batter","base_price":2.0,"nationality":"Indian","set":1,"set_name":"Indian Batters (2 Cr)","league":"IPL"},{"id":11,"name":"Sai Sudharsan","role":"Batter","base_price":2.0,"nationality":"Indian","set":1,"set_name":"Indian Batters (2 Cr)","league":"IPL"},{"id":12,"name":"Ruturaj Gaikwad","role":"Batter","base_price":2.0,"nationality":"Indian","set":1,"set_name":"Indian Batters (2 Cr)","league":"IPL"},{"id":13,"name":"Shubman Gill","role":"Batter","base_price":2.0,"nationality":"Indian","set":1,"set_name":"Indian Batters (2 Cr)","league":"IPL"},{"id":14,"name":"Prabhsimran Singh","role":"Batter","base_price":2.0,"nationality":"Indian","set":1,"set_name":"Indian Batters (2 Cr)","league":"IPL"},{"id":15,"name":"Priyansh Arya","role":"Batter","base_price":2.0,"nationality":"Indian","set":1,"set_name":"Indian Batters (2 Cr)","league":"IPL"},{"id":16,"name":"Ajinkya Rahane","role":"Batter","base_price":2.0,"nationality":"Indian","set":1,"set_name":"Indian Batters (2 Cr)","league":"IPL"},{"id":17,"name":"Rajat Patidar","role":"Batter","base_price":2.0,"nationality":"Indian","set":1,"set_name":"Indian Batters (2 Cr)","league":"IPL"},{"id":18,"name":"Virat Kohli","role":"Batter","base_price":2.0,"nationality":"Indian","set":1,"set_name":"Indian Batters (2 Cr)","league":"IPL"},{"id":19,"name":"Abhishek Sharma","role":"Allrounder","base_price":2.0,"nationality":"Indian","set":3,"set_name":"Indian All-rounders (2 Cr)","league":"IPL"},{"id":20,"name":"Hardik Pandya","role":"Allrounder","base_price":2.0,"nationality":"Indian","set":3,"set_name":"Indian All-rounders (2 Cr)","league":"IPL"},{"id":21,"name":"Riyan Parag","role":"Allrounder","base_price":2.0,"nationality":"Indian","set":3,"set_name":"Indian All-rounders (2 Cr)","league":"IPL"},{"id":22,"name":"Axar Patel","role":"Allrounder","base_price":2.0,"nationality":"Indian","set":3,"set_name":"Indian All-rounders (2 Cr)","league":"IPL"},{"id":23,"name":"Ravindra Jadeja","role":"Allrounder","base_price":2.0,"nationality":"Indian","set":3,"set_name":"Indian All-rounders (2 Cr)","league":"IPL"},{"id":24,"name":"Krunal Pandya","role":"Allrounder","base_price":2.0,"nationality":"Indian","set":3,"set_name":"Indian All-rounders (2 Cr)","league":"IPL"},{"id":25,"name":"Shivam Dube","role":"Allrounder","base_price":2.0,"nationality":"Indian","set":3,"set_name":"Indian All-rounders (2 Cr)","league":"IPL"},{"id":26,"name":"Prasidh Krishna","role":"Bowler","base_price":2.0,"nationality":"Indian","set":4,"set_name":"Indian Bowlers (2 Cr)","league":"IPL"},{"id":27,"name":"Jasprit Bumrah","role":"Bowler","base_price":2.0,"nationality":"Indian","set":4,"set_name":"Indian Bowlers (2 Cr)","league":"IPL"},{"id":28,"name":"Arshdeep Singh","role":"Bowler","base_price":2.0,"nationality":"Indian","set":4,"set_name":"Indian Bowlers (2 Cr)","league":"IPL"},{"id":29,"name":"Mohammed Siraj","role":"Bowler","base_price":2.0,"nationality":"Indian","set":4,"set_name":"Indian Bowlers (2 Cr)","league":"IPL"},{"id":30,"name":"Varun Chakravarthy","role":"Bowler","base_price":2.0,"nationality":"Indian","set":4,"set_name":"Indian Bowlers (2 Cr)","league":"IPL"},{"id":31,"name":"Kuldeep Yadav","role":"Bowler","base_price":2.0,"nationality":"Indian","set":4,"set_name":"Indian Bowlers (2 Cr)","league":"IPL"},{"id":32,"name":"Bhuvneshwar Kumar","role":"Bowler","base_price":2.0,"nationality":"Indian","set":4,"set_name":"Indian Bowlers (2 Cr)","league":"IPL"},{"id":33,"name":"Harshit Rana","role":"Bowler","base_price":2.0,"nationality":"Indian","set":4,"set_name":"Indian Bowlers (2 Cr)","league":"IPL"},{"id":34,"name":"Nicholas Pooran","role":"Wicketkeeper","base_price":2.0,"nationality":"Foreigner","set":6,"set_name":"Foreign WKs (2 Cr)","league":"IPL"},{"id":35,"name":"Jos Buttler","role":"Wicketkeeper","base_price":2.0,"nationality":"Foreigner","set":6,"set_name":"Foreign WKs (2 Cr)","league":"IPL"},{"id":36,"name":"Phil Salt","role":"Wicketkeeper","base_price":2.0,"nationality":"Foreigner","set":6,"set_name":"Foreign WKs (2 Cr)","league":"IPL"},{"id":37,"name":"Heinrich Klaasen","role":"Wicketkeeper","base_price":2.0,"nationality":"Foreigner","set":6,"set_name":"Foreign WKs (2 Cr)","league":"IPL"},{"id":38,"name":"Tristan Stubbs","role":"Wicketkeeper","base_price":2.0,"nationality":"Foreigner","set":6,"set_name":"Foreign WKs (2 Cr)","league":"IPL"},{"id":39,"name":"Sunil Narine","role":"Allrounder","base_price":2.0,"nationality":"Foreigner","set":7,"set_name":"Foreign All-rounders (2 Cr)","league":"IPL"},{"id":40,"name":"Aiden Markram","role":"Allrounder","base_price":2.0,"nationality":"Foreigner","set":7,"set_name":"Foreign All-rounders (2 Cr)","league":"IPL"},{"id":41,"name":"Marco Jansen","role":"Allrounder","base_price":2.0,"nationality":"Foreigner","set":7,"set_name":"Foreign All-rounders (2 Cr)","league":"IPL"},{"id":42,"name":"Marcus Stoinis","role":"Allrounder","base_price":2.0,"nationality":"Foreigner","set":7,"set_name":"Foreign All-rounders (2 Cr)","league":"IPL"},{"id":43,"name":"Romario Shepherd","role":"Allrounder","base_price":2.0,"nationality":"Foreigner","set":7,"set_name":"Foreign All-rounders (2 Cr)","league":"IPL"},{"id":44,"name":"Cameron Green","role":"Allrounder","base_price":2.0,"nationality":"Foreigner","set":7,"set_name":"Foreign All-rounders (2 Cr)","league":"IPL"},{"id":45,"name":"Rohit Sharma","role":"Batter","base_price":2.0,"nationality":"Indian","set":1,"set_name":"Indian Batters (2 Cr)","league":"IPL"},{"id":46,"name":"Mitchell Marsh","role":"Batter","base_price":2.0,"nationality":"Foreigner","set":5,"set_name":"Foreign Batters (2 Cr)","league":"IPL"},{"id":47,"name":"Travis Head","role":"Batter","base_price":2.0,"nationality":"Foreigner","set":5,"set_name":"Foreign Batters (2 Cr)","league":"IPL"},{"id":48,"name":"Tim David","role":"Batter","base_price":2.0,"nationality":"Foreigner","set":5,"set_name":"Foreign Batters (2 Cr)","league":"IPL"},{"id":49,"name":"Dewald Brevis","role":"Batter","base_price":2.0,"nationality":"Foreigner","set":5,"set_name":"Foreign Batters (2 Cr)","league":"IPL"},{"id":50,"name":"Pat Cummins","role":"Bowler","base_price":2.0,"nationality":"Foreigner","set":8,"set_name":"Foreign Bowlers (2 Cr)","league":"IPL"},{"id":51,"name":"Trent Boult","role":"Bowler","base_price":2.0,"nationality":"Foreigner","set":8,"set_name":"Foreign Bowlers (2 Cr)","league":"IPL"},{"id":52,"name":"Josh Hazlewood","role":"Bowler","base_price":2.0,"nationality":"Foreigner","set":8,"set_name":"Foreign Bowlers (2 Cr)","league":"IPL"},{"id":53,"name":"Noor Ahmad","role":"Bowler","base_price":2.0,"nationality":"Foreigner","set":8,"set_name":"Foreign Bowlers (2 Cr)","league":"IPL"},{"id":54,"name":"Kagiso Rabada","role":"Bowler","base_price":2.0,"nationality":"Foreigner","set":8,"set_name":"Foreign Bowlers (2 Cr)","league":"IPL"},{"id":55,"name":"Jofra Archer","role":"Bowler","base_price":2.0,"nationality":"Foreigner","set":8,"set_name":"Foreign Bowlers (2 Cr)","league":"IPL"},{"id":56,"name":"Vaibhav Suryavanshi","role":"Batter","base_price":1.0,"nationality":"Indian","set":9,"set_name":"Indian Batters (1 Cr)","league":"IPL"},{"id":57,"name":"Tilak Varma","role":"Batter","base_price":1.0,"nationality":"Indian","set":9,"set_name":"Indian Batters (1 Cr)","league":"IPL"},{"id":58,"name":"Devdutt Padikkal","role":"Batter","base_price":1.0,"nationality":"Indian","set":9,"set_name":"Indian Batters (1 Cr)","league":"IPL"},{"id":59,"name":"Nehal Wadhera","role":"Batter","base_price":1.0,"nationality":"Indian","set":9,"set_name":"Indian Batters (1 Cr)","league":"IPL"},{"id":60,"name":"Naman Dhir","role":"Batter","base_price":1.0,"nationality":"Indian","set":9,"set_name":"Indian Batters (1 Cr)","league":"IPL"},{"id":61,"name":"Shashank Singh","role":"Batter","base_price":1.0,"nationality":"Indian","set":9,"set_name":"Indian Batters (1 Cr)","league":"IPL"},{"id":62,"name":"Angkrish Raghuvanshi","role":"Batter","base_price":1.0,"nationality":"Indian","set":9,"set_name":"Indian Batters (1 Cr)","league":"IPL"},{"id":63,"name":"Rinku Singh","role":"Batter","base_price":1.0,"nationality":"Indian","set":9,"set_name":"Indian Batters (1 Cr)","league":"IPL"},{"id":64,"name":"Ashutosh Sharma","role":"Batter","base_price":1.0,"nationality":"Indian","set":9,"set_name":"Indian Batters (1 Cr)","league":"IPL"},{"id":65,"name":"Ayush Mhatre","role":"Batter","base_price":1.0,"nationality":"Indian","set":9,"set_name":"Indian Batters (1 Cr)","league":"IPL"},{"id":66,"name":"Ramandeep Singh","role":"Batter","base_price":1.0,"nationality":"Indian","set":9,"set_name":"Indian Batters (1 Cr)","league":"IPL"},{"id":67,"name":"Aniket Verma","role":"Batter","base_price":1.0,"nationality":"Indian","set":9,"set_name":"Indian Batters (1 Cr)","league":"IPL"},{"id":68,"name":"Shubham Dubey","role":"Batter","base_price":1.0,"nationality":"Indian","set":9,"set_name":"Indian Batters (1 Cr)","league":"IPL"},{"id":69,"name":"Abhishek Porel","role":"Wicketkeeper","base_price":1.0,"nationality":"Indian","set":10,"set_name":"Indian WKs & ARs (1 Cr)","league":"IPL"},{"id":70,"name":"Urvil Patel","role":"Wicketkeeper","base_price":1.0,"nationality":"Indian","set":10,"set_name":"Indian WKs & ARs (1 Cr)","league":"IPL"},{"id":71,"name":"Nitish Kumar Reddy","role":"Allrounder","base_price":1.0,"nationality":"Indian","set":10,"set_name":"Indian WKs & ARs (1 Cr)","league":"IPL"},{"id":72,"name":"Washington Sundar","role":"Allrounder","base_price":1.0,"nationality":"Indian","set":10,"set_name":"Indian WKs & ARs (1 Cr)","league":"IPL"},{"id":73,"name":"Venkatesh Iyer","role":"Allrounder","base_price":1.0,"nationality":"Indian","set":10,"set_name":"Indian WKs & ARs (1 Cr)","league":"IPL"},{"id":74,"name":"Rahul Tewatia","role":"Allrounder","base_price":1.0,"nationality":"Indian","set":10,"set_name":"Indian WKs & ARs (1 Cr)","league":"IPL"},{"id":75,"name":"Ayush Badoni","role":"Allrounder","base_price":1.0,"nationality":"Indian","set":10,"set_name":"Indian WKs & ARs (1 Cr)","league":"IPL"},{"id":76,"name":"Vipraj Nigam","role":"Allrounder","base_price":1.0,"nationality":"Indian","set":10,"set_name":"Indian WKs & ARs (1 Cr)","league":"IPL"},{"id":77,"name":"Harsh Dubey","role":"Allrounder","base_price":1.0,"nationality":"Indian","set":10,"set_name":"Indian WKs & ARs (1 Cr)","league":"IPL"},{"id":78,"name":"Khaleel Ahmed","role":"Bowler","base_price":1.0,"nationality":"Indian","set":11,"set_name":"Indian Bowlers (1 Cr)","league":"IPL"},{"id":79,"name":"Yash Dayal","role":"Bowler","base_price":1.0,"nationality":"Indian","set":11,"set_name":"Indian Bowlers (1 Cr)","league":"IPL"},{"id":80,"name":"Deepak Chahar","role":"Bowler","base_price":1.0,"nationality":"Indian","set":11,"set_name":"Indian Bowlers (1 Cr)","league":"IPL"},{"id":81,"name":"Vaibhav Arora","role":"Bowler","base_price":1.0,"nationality":"Indian","set":11,"set_name":"Indian Bowlers (1 Cr)","league":"IPL"},{"id":82,"name":"Sai Kishore","role":"Bowler","base_price":1.0,"nationality":"Indian","set":11,"set_name":"Indian Bowlers (1 Cr)","league":"IPL"},{"id":83,"name":"Digvesh Singh Rathi","role":"Bowler","base_price":1.0,"nationality":"Indian","set":11,"set_name":"Indian Bowlers (1 Cr)","league":"IPL"},{"id":84,"name":"Harshal Patel","role":"Bowler","base_price":1.0,"nationality":"Indian","set":11,"set_name":"Indian Bowlers (1 Cr)","league":"IPL"},{"id":85,"name":"Avesh Khan","role":"Bowler","base_price":1.0,"nationality":"Indian","set":11,"set_name":"Indian Bowlers (1 Cr)","league":"IPL"},{"id":86,"name":"Yuzvendra Chahal","role":"Bowler","base_price":1.0,"nationality":"Indian","set":11,"set_name":"Indian Bowlers (1 Cr)","league":"IPL"},{"id":87,"name":"Suyash Sharma","role":"Bowler","base_price":1.0,"nationality":"Indian","set":11,"set_name":"Indian Bowlers (1 Cr)","league":"IPL"},{"id":88,"name":"Mukesh Kumar","role":"Bowler","base_price":1.0,"nationality":"Indian","set":11,"set_name":"Indian Bowlers (1 Cr)","league":"IPL"},{"id":89,"name":"Shardul Thakur","role":"Bowler","base_price":1.0,"nationality":"Indian","set":11,"set_name":"Indian Bowlers (1 Cr)","league":"IPL"},{"id":90,"name":"Tushar Deshpande","role":"Bowler","base_price":1.0,"nationality":"Indian","set":11,"set_name":"Indian Bowlers (1 Cr)","league":"IPL"},{"id":91,"name":"Sandeep Sharma","role":"Bowler","base_price":1.0,"nationality":"Indian","set":11,"set_name":"Indian Bowlers (1 Cr)","league":"IPL"},{"id":92,"name":"Mohammed Shami","role":"Bowler","base_price":1.0,"nationality":"Indian","set":11,"set_name":"Indian Bowlers (1 Cr)","league":"IPL"},{"id":93,"name":"Sherfane Rutherford","role":"Batter","base_price":1.0,"nationality":"Foreigner","set":12,"set_name":"Foreign Batters & WKs (1 Cr)","league":"IPL"},{"id":94,"name":"Shimron Hetmyer","role":"Batter","base_price":1.0,"nationality":"Foreigner","set":12,"set_name":"Foreign Batters & WKs (1 Cr)","league":"IPL"},{"id":95,"name":"Glenn Phillips","role":"Batter","base_price":1.0,"nationality":"Foreigner","set":12,"set_name":"Foreign Batters & WKs (1 Cr)","league":"IPL"},{"id":96,"name":"David Miller","role":"Batter","base_price":1.0,"nationality":"Foreigner","set":12,"set_name":"Foreign Batters & WKs (1 Cr)","league":"IPL"},{"id":97,"name":"Pathum Nissanka","role":"Batter","base_price":1.0,"nationality":"Foreigner","set":12,"set_name":"Foreign Batters & WKs (1 Cr)","league":"IPL"},{"id":98,"name":"Ryan Rickelton","role":"Wicketkeeper","base_price":1.0,"nationality":"Foreigner","set":12,"set_name":"Foreign Batters & WKs (1 Cr)","league":"IPL"},{"id":99,"name":"Quinton de Kock","role":"Wicketkeeper","base_price":1.0,"nationality":"Foreigner","set":12,"set_name":"Foreign Batters & WKs (1 Cr)","league":"IPL"},{"id":100,"name":"Tim Seifert","role":"Wicketkeeper","base_price":1.0,"nationality":"Foreigner","set":12,"set_name":"Foreign Batters & WKs (1 Cr)","league":"IPL"},{"id":101,"name":"Will Jacks","role":"Allrounder","base_price":1.0,"nationality":"Foreigner","set":13,"set_name":"Foreign ARs & Bowlers (1 Cr)","league":"IPL"},{"id":102,"name":"Mitchell Santner","role":"Allrounder","base_price":1.0,"nationality":"Foreigner","set":13,"set_name":"Foreign ARs & Bowlers (1 Cr)","league":"IPL"},{"id":103,"name":"Akeal Hosein","role":"Allrounder","base_price":1.0,"nationality":"Foreigner","set":13,"set_name":"Foreign ARs & Bowlers (1 Cr)","league":"IPL"},{"id":104,"name":"Liam Livingstone","role":"Allrounder","base_price":1.0,"nationality":"Foreigner","set":13,"set_name":"Foreign ARs & Bowlers (1 Cr)","league":"IPL"},{"id":105,"name":"Sam Curran","role":"Allrounder","base_price":1.0,"nationality":"Foreigner","set":13,"set_name":"Foreign ARs & Bowlers (1 Cr)","league":"IPL"},{"id":106,"name":"Rashid Khan","role":"Bowler","base_price":1.0,"nationality":"Foreigner","set":13,"set_name":"Foreign ARs & Bowlers (1 Cr)","league":"IPL"},{"id":107,"name":"Mitchell Starc","role":"Bowler","base_price":1.0,"nationality":"Foreigner","set":13,"set_name":"Foreign ARs & Bowlers (1 Cr)","league":"IPL"},{"id":108,"name":"Nathan Ellis","role":"Bowler","base_price":1.0,"nationality":"Foreigner","set":13,"set_name":"Foreign ARs & Bowlers (1 Cr)","league":"IPL"},{"id":109,"name":"Matheesha Pathirana","role":"Bowler","base_price":1.0,"nationality":"Foreigner","set":13,"set_name":"Foreign ARs & Bowlers (1 Cr)","league":"IPL"},{"id":110,"name":"Abdul Samad","role":"Batter","base_price":0.5,"nationality":"Indian","set":20,"set_name":"Indian Batters (0.5 Cr)","league":"IPL"},{"id":111,"name":"Shahrukh Khan","role":"Batter","base_price":0.5,"nationality":"Indian","set":20,"set_name":"Indian Batters (0.5 Cr)","league":"IPL"},{"id":112,"name":"Karun Nair","role":"Batter","base_price":0.5,"nationality":"Indian","set":20,"set_name":"Indian Batters (0.5 Cr)","league":"IPL"},{"id":113,"name":"Nitish Rana","role":"Batter","base_price":0.5,"nationality":"Indian","set":20,"set_name":"Indian Batters (0.5 Cr)","league":"IPL"},{"id":114,"name":"Sameer Rizvi","role":"Batter","base_price":0.5,"nationality":"Indian","set":20,"set_name":"Indian Batters (0.5 Cr)","league":"IPL"},{"id":115,"name":"Manish Pandey","role":"Batter","base_price":0.5,"nationality":"Indian","set":20,"set_name":"Indian Batters (0.5 Cr)","league":"IPL"},{"id":116,"name":"Himmat Singh","role":"Batter","base_price":0.5,"nationality":"Indian","set":20,"set_name":"Indian Batters (0.5 Cr)","league":"IPL"},{"id":117,"name":"S. Ravichandran","role":"Batter","base_price":0.5,"nationality":"Indian","set":20,"set_name":"Indian Batters (0.5 Cr)","league":"IPL"},{"id":118,"name":"Rahul Tripathi","role":"Batter","base_price":0.5,"nationality":"Indian","set":20,"set_name":"Indian Batters (0.5 Cr)","league":"IPL"},{"id":119,"name":"Prithvi Shaw","role":"Batter","base_price":0.5,"nationality":"Indian","set":20,"set_name":"Indian Batters (0.5 Cr)","league":"IPL"},{"id":120,"name":"Sahil Parakh","role":"Batter","base_price":0.5,"nationality":"Indian","set":20,"set_name":"Indian Batters (0.5 Cr)","league":"IPL"},{"id":121,"name":"Akshat Raghuwanshi","role":"Batter","base_price":0.5,"nationality":"Indian","set":20,"set_name":"Indian Batters (0.5 Cr)","league":"IPL"},{"id":122,"name":"Danish Malewar","role":"Batter","base_price":0.5,"nationality":"Indian","set":20,"set_name":"Indian Batters (0.5 Cr)","league":"IPL"},{"id":123,"name":"Aman Rao","role":"Batter","base_price":0.5,"nationality":"Indian","set":20,"set_name":"Indian Batters (0.5 Cr)","league":"IPL"},{"id":124,"name":"Sarfaraz Khan","role":"Wicketkeeper","base_price":0.5,"nationality":"Indian","set":19,"set_name":"Indian Wicketkeepers (0.5 Cr)","league":"IPL"},{"id":125,"name":"Kartik Sharma","role":"Wicketkeeper","base_price":0.5,"nationality":"Indian","set":19,"set_name":"Indian Wicketkeepers (0.5 Cr)","league":"IPL"},{"id":126,"name":"Robin Minz","role":"Wicketkeeper","base_price":0.5,"nationality":"Indian","set":19,"set_name":"Indian Wicketkeepers (0.5 Cr)","league":"IPL"},{"id":127,"name":"Anuj Rawat","role":"Wicketkeeper","base_price":0.5,"nationality":"Indian","set":19,"set_name":"Indian Wicketkeepers (0.5 Cr)","league":"IPL"},{"id":128,"name":"Kumar Kushagra","role":"Wicketkeeper","base_price":0.5,"nationality":"Indian","set":19,"set_name":"Indian Wicketkeepers (0.5 Cr)","league":"IPL"},{"id":129,"name":"Vishnu Vinod","role":"Wicketkeeper","base_price":0.5,"nationality":"Indian","set":19,"set_name":"Indian Wicketkeepers (0.5 Cr)","league":"IPL"},{"id":130,"name":"Tejasvi Dahiya","role":"Wicketkeeper","base_price":0.5,"nationality":"Indian","set":19,"set_name":"Indian Wicketkeepers (0.5 Cr)","league":"IPL"},{"id":131,"name":"Aman Khan","role":"Wicketkeeper","base_price":0.5,"nationality":"Indian","set":19,"set_name":"Indian Wicketkeepers (0.5 Cr)","league":"IPL"},{"id":132,"name":"Mukul Choudhary","role":"Wicketkeeper","base_price":0.5,"nationality":"Indian","set":19,"set_name":"Indian Wicketkeepers (0.5 Cr)","league":"IPL"},{"id":133,"name":"Ravi Singh","role":"Wicketkeeper","base_price":0.5,"nationality":"Indian","set":19,"set_name":"Indian Wicketkeepers (0.5 Cr)","league":"IPL"},{"id":134,"name":"Salil Arora","role":"Wicketkeeper","base_price":0.5,"nationality":"Indian","set":19,"set_name":"Indian Wicketkeepers (0.5 Cr)","league":"IPL"},{"id":135,"name":"Shahbaz Ahmad","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":18,"set_name":"Indian Allrounders (0.5 Cr)","league":"IPL"},{"id":136,"name":"Manav Suthar","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":18,"set_name":"Indian Allrounders (0.5 Cr)","league":"IPL"},{"id":137,"name":"Arjun Tendulkar","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":18,"set_name":"Indian Allrounders (0.5 Cr)","league":"IPL"},{"id":138,"name":"Prashant Veer","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":18,"set_name":"Indian Allrounders (0.5 Cr)","league":"IPL"},{"id":139,"name":"Auqib Dar","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":18,"set_name":"Indian Allrounders (0.5 Cr)","league":"IPL"},{"id":140,"name":"Mangesh Yadav","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":18,"set_name":"Indian Allrounders (0.5 Cr)","league":"IPL"},{"id":141,"name":"Ramakrishna Ghosh","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":18,"set_name":"Indian Allrounders (0.5 Cr)","league":"IPL"},{"id":142,"name":"Ajay Mandal","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":18,"set_name":"Indian Allrounders (0.5 Cr)","league":"IPL"},{"id":143,"name":"Madhav Tiwari","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":18,"set_name":"Indian Allrounders (0.5 Cr)","league":"IPL"},{"id":144,"name":"Tripurana Vijay","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":18,"set_name":"Indian Allrounders (0.5 Cr)","league":"IPL"},{"id":145,"name":"Gurnoor Singh Brar","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":18,"set_name":"Indian Allrounders (0.5 Cr)","league":"IPL"},{"id":146,"name":"Nishant Sindhu","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":18,"set_name":"Indian Allrounders (0.5 Cr)","league":"IPL"},{"id":147,"name":"Arshin Kulkarni","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":18,"set_name":"Indian Allrounders (0.5 Cr)","league":"IPL"},{"id":148,"name":"Raj Angad Bawa","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":18,"set_name":"Indian Allrounders (0.5 Cr)","league":"IPL"},{"id":149,"name":"Harnoor Pannu","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":18,"set_name":"Indian Allrounders (0.5 Cr)","league":"IPL"},{"id":150,"name":"Musheer Khan","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":18,"set_name":"Indian Allrounders (0.5 Cr)","league":"IPL"},{"id":151,"name":"Pyla Avinash","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":18,"set_name":"Indian Allrounders (0.5 Cr)","league":"IPL"},{"id":152,"name":"Suryansh Shedge","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":18,"set_name":"Indian Allrounders (0.5 Cr)","league":"IPL"},{"id":153,"name":"Abhinandan Singh","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":18,"set_name":"Indian Allrounders (0.5 Cr)","league":"IPL"},{"id":154,"name":"Swapnil Singh","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":18,"set_name":"Indian Allrounders (0.5 Cr)","league":"IPL"},{"id":155,"name":"Daksh Kamra","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":18,"set_name":"Indian Allrounders (0.5 Cr)","league":"IPL"},{"id":156,"name":"Prashant Solanki","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":18,"set_name":"Indian Allrounders (0.5 Cr)","league":"IPL"},{"id":157,"name":"Sarthak Ranjan","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":18,"set_name":"Indian Allrounders (0.5 Cr)","league":"IPL"},{"id":158,"name":"Naman Tiwari","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":18,"set_name":"Indian Allrounders (0.5 Cr)","league":"IPL"},{"id":159,"name":"Atharva Ankolekar","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":18,"set_name":"Indian Allrounders (0.5 Cr)","league":"IPL"},{"id":160,"name":"Mayank Rawat","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":18,"set_name":"Indian Allrounders (0.5 Cr)","league":"IPL"},{"id":161,"name":"Satwik Deswal","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":18,"set_name":"Indian Allrounders (0.5 Cr)","league":"IPL"},{"id":162,"name":"Kanishk Chouhan","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":18,"set_name":"Indian Allrounders (0.5 Cr)","league":"IPL"},{"id":163,"name":"Vihaan Malhotra","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":18,"set_name":"Indian Allrounders (0.5 Cr)","league":"IPL"},{"id":164,"name":"Vicky Ostwal","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":18,"set_name":"Indian Allrounders (0.5 Cr)","league":"IPL"},{"id":165,"name":"Shivang Kumar","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":18,"set_name":"Indian Allrounders (0.5 Cr)","league":"IPL"},{"id":166,"name":"T Natarajan","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":167,"name":"Ashwani Kumar","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":168,"name":"Jaydev Unadkat","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":169,"name":"Anshul Kamboj","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":170,"name":"Gurjapneet Singh","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":171,"name":"Arshad Khan","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":172,"name":"Zeeshan Ansari","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":173,"name":"Harpreet Brar","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":174,"name":"Prince Yadav","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":175,"name":"Ishant Sharma","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":176,"name":"Vijaykumar Vyshak","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":177,"name":"Yudhvir Singh","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":178,"name":"Akash Singh","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":179,"name":"Mayank Yadav","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":180,"name":"Umran Malik","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":181,"name":"Mohsin Khan","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":182,"name":"Mayank Markande","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":183,"name":"M Siddharth","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":184,"name":"Rasikh Dar","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":185,"name":"Mukesh Choudhary","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":186,"name":"Yash Thakur","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":187,"name":"Anukul Roy","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":188,"name":"Shreyas Gopal","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":189,"name":"Jayant Yadav","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":190,"name":"Raghu Sharma","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":191,"name":"Akash Deep","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":192,"name":"Kartik Tyagi","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":193,"name":"Rahul Chahar","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":194,"name":"Ravi Bishnoi","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":195,"name":"Ashok Sharma","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":196,"name":"Prithviraj Yarra","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":197,"name":"Mohammad Izhar","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":198,"name":"Vishal Nishad","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":199,"name":"Pravin Dubey","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":200,"name":"Vignesh Puthur","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":201,"name":"Sushant Mishra","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":202,"name":"Yash Raj Punja","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":203,"name":"Brijesh Sharma","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":204,"name":"Kuldeep Sen","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":205,"name":"Krains Fuletra","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":206,"name":"Praful Hinge","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":207,"name":"Amit Kumar","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":208,"name":"Onkar Tarmale","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":209,"name":"Sakib Hussain","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":210,"name":"Shivam Mavi","role":"Bowler","base_price":0.5,"nationality":"Indian","set":17,"set_name":"Indian Bowlers (0.5 Cr)","league":"IPL"},{"id":211,"name":"Tom Banton","role":"Batter","base_price":0.5,"nationality":"Foreigner","set":16,"set_name":"Foreign WKs & Batters (0.5 Cr)","league":"IPL"},{"id":212,"name":"Jordan Cox","role":"Batter","base_price":0.5,"nationality":"Foreigner","set":16,"set_name":"Foreign WKs & Batters (0.5 Cr)","league":"IPL"},{"id":213,"name":"Jacob Bethell","role":"Batter","base_price":0.5,"nationality":"Foreigner","set":16,"set_name":"Foreign WKs & Batters (0.5 Cr)","league":"IPL"},{"id":214,"name":"Matthew Breetzke","role":"Wicketkeeper","base_price":0.5,"nationality":"Foreigner","set":16,"set_name":"Foreign WKs & Batters (0.5 Cr)","league":"IPL"},{"id":215,"name":"Donovan Ferreira","role":"Wicketkeeper","base_price":0.5,"nationality":"Foreigner","set":16,"set_name":"Foreign WKs & Batters (0.5 Cr)","league":"IPL"},{"id":216,"name":"Finn Allen","role":"Wicketkeeper","base_price":0.5,"nationality":"Foreigner","set":16,"set_name":"Foreign WKs & Batters (0.5 Cr)","league":"IPL"},{"id":217,"name":"Josh Inglis","role":"Wicketkeeper","base_price":0.5,"nationality":"Foreigner","set":16,"set_name":"Foreign WKs & Batters (0.5 Cr)","league":"IPL"},{"id":218,"name":"Ben Duckett","role":"Wicketkeeper","base_price":0.5,"nationality":"Foreigner","set":16,"set_name":"Foreign WKs & Batters (0.5 Cr)","league":"IPL"},{"id":219,"name":"Jamie Overton","role":"Allrounder","base_price":0.5,"nationality":"Foreigner","set":15,"set_name":"Foreign All-rounders (0.5 Cr)","league":"IPL"},{"id":220,"name":"Rachin Ravindra","role":"Allrounder","base_price":0.5,"nationality":"Foreigner","set":15,"set_name":"Foreign All-rounders (0.5 Cr)","league":"IPL"},{"id":221,"name":"Azmatullah Omarzai","role":"Allrounder","base_price":0.5,"nationality":"Foreigner","set":15,"set_name":"Foreign All-rounders (0.5 Cr)","league":"IPL"},{"id":222,"name":"Kamindu Mendis","role":"Allrounder","base_price":0.5,"nationality":"Foreigner","set":15,"set_name":"Foreign All-rounders (0.5 Cr)","league":"IPL"},{"id":223,"name":"Rovman Powell","role":"Allrounder","base_price":0.5,"nationality":"Foreigner","set":15,"set_name":"Foreign All-rounders (0.5 Cr)","league":"IPL"},{"id":224,"name":"Mitchell Owen","role":"Allrounder","base_price":0.5,"nationality":"Foreigner","set":15,"set_name":"Foreign All-rounders (0.5 Cr)","league":"IPL"},{"id":225,"name":"Matthew Short","role":"Allrounder","base_price":0.5,"nationality":"Foreigner","set":15,"set_name":"Foreign All-rounders (0.5 Cr)","league":"IPL"},{"id":226,"name":"Zac Foulkes","role":"Allrounder","base_price":0.5,"nationality":"Foreigner","set":15,"set_name":"Foreign All-rounders (0.5 Cr)","league":"IPL"},{"id":227,"name":"Jason Holder","role":"Allrounder","base_price":0.5,"nationality":"Foreigner","set":15,"set_name":"Foreign All-rounders (0.5 Cr)","league":"IPL"},{"id":228,"name":"Wanindu Hasaranga","role":"Allrounder","base_price":0.5,"nationality":"Foreigner","set":15,"set_name":"Foreign All-rounders (0.5 Cr)","league":"IPL"},{"id":229,"name":"Cooper Connolly","role":"Allrounder","base_price":0.5,"nationality":"Foreigner","set":15,"set_name":"Foreign All-rounders (0.5 Cr)","league":"IPL"},{"id":230,"name":"Ben Dwarshuis","role":"Allrounder","base_price":0.5,"nationality":"Foreigner","set":15,"set_name":"Foreign All-rounders (0.5 Cr)","league":"IPL"},{"id":231,"name":"Jack Edwards","role":"Allrounder","base_price":0.5,"nationality":"Foreigner","set":15,"set_name":"Foreign All-rounders (0.5 Cr)","league":"IPL"},{"id":232,"name":"Eshan Malinga","role":"Bowler","base_price":0.5,"nationality":"Foreigner","set":14,"set_name":"Foreign Bowlers (0.5 Cr)","league":"IPL"},{"id":233,"name":"Corbin Bosch","role":"Bowler","base_price":0.5,"nationality":"Foreigner","set":14,"set_name":"Foreign Bowlers (0.5 Cr)","league":"IPL"},{"id":234,"name":"Xavier Bartlett","role":"Bowler","base_price":0.5,"nationality":"Foreigner","set":14,"set_name":"Foreign Bowlers (0.5 Cr)","league":"IPL"},{"id":235,"name":"Lockie Ferguson","role":"Bowler","base_price":0.5,"nationality":"Foreigner","set":14,"set_name":"Foreign Bowlers (0.5 Cr)","league":"IPL"},{"id":236,"name":"Dushmantha Chameera","role":"Bowler","base_price":0.5,"nationality":"Foreigner","set":14,"set_name":"Foreign Bowlers (0.5 Cr)","league":"IPL"},{"id":237,"name":"Kwena Maphaka","role":"Bowler","base_price":0.5,"nationality":"Foreigner","set":14,"set_name":"Foreign Bowlers (0.5 Cr)","league":"IPL"},{"id":238,"name":"Nandre Burger","role":"Bowler","base_price":0.5,"nationality":"Foreigner","set":14,"set_name":"Foreign Bowlers (0.5 Cr)","league":"IPL"},{"id":239,"name":"Allah Ghazanfar","role":"Bowler","base_price":0.5,"nationality":"Foreigner","set":14,"set_name":"Foreign Bowlers (0.5 Cr)","league":"IPL"},{"id":240,"name":"Lhuan-dre Pretorius","role":"Bowler","base_price":0.5,"nationality":"Foreigner","set":14,"set_name":"Foreign Bowlers (0.5 Cr)","league":"IPL"},{"id":241,"name":"Nuwan Thushara","role":"Bowler","base_price":0.5,"nationality":"Foreigner","set":14,"set_name":"Foreign Bowlers (0.5 Cr)","league":"IPL"},{"id":242,"name":"Brydon Carse","role":"Bowler","base_price":0.5,"nationality":"Foreigner","set":14,"set_name":"Foreign Bowlers (0.5 Cr)","league":"IPL"},{"id":243,"name":"Mustafizur Rahman","role":"Bowler","base_price":0.5,"nationality":"Foreigner","set":14,"set_name":"Foreign Bowlers (0.5 Cr)","league":"IPL"},{"id":244,"name":"Matt Henry","role":"Bowler","base_price":0.5,"nationality":"Foreigner","set":14,"set_name":"Foreign Bowlers (0.5 Cr)","league":"IPL"},{"id":245,"name":"Lungi Ngidi","role":"Bowler","base_price":0.5,"nationality":"Foreigner","set":14,"set_name":"Foreign Bowlers (0.5 Cr)","league":"IPL"},{"id":246,"name":"Kyle Jamieson","role":"Bowler","base_price":0.5,"nationality":"Foreigner","set":14,"set_name":"Foreign Bowlers (0.5 Cr)","league":"IPL"},{"id":247,"name":"Luke Wood","role":"Bowler","base_price":0.5,"nationality":"Foreigner","set":14,"set_name":"Foreign Bowlers (0.5 Cr)","league":"IPL"},{"id":248,"name":"Anrich Nortje","role":"Bowler","base_price":0.5,"nationality":"Foreigner","set":14,"set_name":"Foreign Bowlers (0.5 Cr)","league":"IPL"},{"id":249,"name":"Adam Milne","role":"Bowler","base_price":0.5,"nationality":"Foreigner","set":14,"set_name":"Foreign Bowlers (0.5 Cr)","league":"IPL"},{"id":250,"name":"Jacob Duffy","role":"Bowler","base_price":0.5,"nationality":"Foreigner","set":14,"set_name":"Foreign Bowlers (0.5 Cr)","league":"IPL"},{"id":301,"name":"Sophie Devine","role":"Allrounder","base_price":2.0,"nationality":"Foreigner","set":1,"set_name":"WPL Foreign All-rounders (2 Cr)","league":"WPL"},{"id":302,"name":"Nadine de Klerk","role":"Allrounder","base_price":2.0,"nationality":"Foreigner","set":1,"set_name":"WPL Foreign All-rounders (2 Cr)","league":"WPL"},{"id":303,"name":"Nat Sciver-Brunt","role":"Allrounder","base_price":2.0,"nationality":"Foreigner","set":1,"set_name":"WPL Foreign All-rounders (2 Cr)","league":"WPL"},{"id":304,"name":"Marizanne Kapp","role":"Allrounder","base_price":2.0,"nationality":"Foreigner","set":1,"set_name":"WPL Foreign All-rounders (2 Cr)","league":"WPL"},{"id":305,"name":"Chinelle Henry","role":"Allrounder","base_price":2.0,"nationality":"Foreigner","set":1,"set_name":"WPL Foreign All-rounders (2 Cr)","league":"WPL"},{"id":306,"name":"Georgia Wareham","role":"Allrounder","base_price":2.0,"nationality":"Foreigner","set":1,"set_name":"WPL Foreign All-rounders (2 Cr)","league":"WPL"},{"id":307,"name":"Grace Harris","role":"Allrounder","base_price":2.0,"nationality":"Foreigner","set":1,"set_name":"WPL Foreign All-rounders (2 Cr)","league":"WPL"},{"id":308,"name":"Ellyse Perry","role":"Allrounder","base_price":2.0,"nationality":"Foreigner","set":1,"set_name":"WPL Foreign All-rounders (2 Cr)","league":"WPL"},{"id":309,"name":"Ashleigh Gardner","role":"Allrounder","base_price":2.0,"nationality":"Foreigner","set":1,"set_name":"WPL Foreign All-rounders (2 Cr)","league":"WPL"},{"id":310,"name":"Amelia Kerr","role":"Allrounder","base_price":2.0,"nationality":"Foreigner","set":1,"set_name":"WPL Foreign All-rounders (2 Cr)","league":"WPL"},{"id":311,"name":"Annabel Sutherland","role":"Allrounder","base_price":2.0,"nationality":"Foreigner","set":1,"set_name":"WPL Foreign All-rounders (2 Cr)","league":"WPL"},{"id":312,"name":"Hayley Matthews","role":"Allrounder","base_price":2.0,"nationality":"Foreigner","set":1,"set_name":"WPL Foreign All-rounders (2 Cr)","league":"WPL"},{"id":313,"name":"Beth Mooney","role":"Wicketkeeper","base_price":2.0,"nationality":"Foreigner","set":2,"set_name":"WPL Foreign Stars (1-2 Cr)","league":"WPL"},{"id":314,"name":"Phoebe Litchfield","role":"Batter","base_price":2.0,"nationality":"Foreigner","set":2,"set_name":"WPL Foreign Stars (1-2 Cr)","league":"WPL"},{"id":315,"name":"Laura Wolvaardt","role":"Batter","base_price":2.0,"nationality":"Foreigner","set":2,"set_name":"WPL Foreign Stars (1-2 Cr)","league":"WPL"},{"id":316,"name":"Meg Lanning","role":"Batter","base_price":2.0,"nationality":"Foreigner","set":2,"set_name":"WPL Foreign Stars (1-2 Cr)","league":"WPL"},{"id":317,"name":"Lauren Bell","role":"Bowler","base_price":2.0,"nationality":"Foreigner","set":2,"set_name":"WPL Foreign Stars (1-2 Cr)","league":"WPL"},{"id":318,"name":"Sophie Ecclestone","role":"Bowler","base_price":2.0,"nationality":"Foreigner","set":2,"set_name":"WPL Foreign Stars (1-2 Cr)","league":"WPL"},{"id":319,"name":"Shabnim Ismail","role":"Bowler","base_price":2.0,"nationality":"Foreigner","set":2,"set_name":"WPL Foreign Stars (1-2 Cr)","league":"WPL"},{"id":320,"name":"Nicola Carey","role":"Allrounder","base_price":1.0,"nationality":"Foreigner","set":2,"set_name":"WPL Foreign Stars (1-2 Cr)","league":"WPL"},{"id":321,"name":"Sophie Molineux","role":"Allrounder","base_price":1.0,"nationality":"Foreigner","set":2,"set_name":"WPL Foreign Stars (1-2 Cr)","league":"WPL"},{"id":322,"name":"Jess Jonassen","role":"Allrounder","base_price":1.0,"nationality":"Foreigner","set":2,"set_name":"WPL Foreign Stars (1-2 Cr)","league":"WPL"},{"id":323,"name":"Georgia Voll","role":"Batter","base_price":1.0,"nationality":"Foreigner","set":2,"set_name":"WPL Foreign Stars (1-2 Cr)","league":"WPL"},{"id":324,"name":"Chloe Tryon","role":"Allrounder","base_price":1.0,"nationality":"Foreigner","set":3,"set_name":"WPL Foreign ARs & Bowlers (0.5-1 Cr)","league":"WPL"},{"id":325,"name":"Tara Norris","role":"Bowler","base_price":1.0,"nationality":"Foreigner","set":3,"set_name":"WPL Foreign ARs & Bowlers (0.5-1 Cr)","league":"WPL"},{"id":326,"name":"Kathryn Bryce","role":"Allrounder","base_price":1.0,"nationality":"Foreigner","set":3,"set_name":"WPL Foreign ARs & Bowlers (0.5-1 Cr)","league":"WPL"},{"id":327,"name":"Kim Garth","role":"Bowler","base_price":1.0,"nationality":"Foreigner","set":3,"set_name":"WPL Foreign ARs & Bowlers (0.5-1 Cr)","league":"WPL"},{"id":328,"name":"Orla Prendergast","role":"Allrounder","base_price":0.5,"nationality":"Foreigner","set":3,"set_name":"WPL Foreign ARs & Bowlers (0.5-1 Cr)","league":"WPL"},{"id":329,"name":"Kirstie Gordon","role":"Bowler","base_price":0.5,"nationality":"Foreigner","set":3,"set_name":"WPL Foreign ARs & Bowlers (0.5-1 Cr)","league":"WPL"},{"id":330,"name":"Lucy Hamilton","role":"Bowler","base_price":0.5,"nationality":"Foreigner","set":3,"set_name":"WPL Foreign ARs & Bowlers (0.5-1 Cr)","league":"WPL"},{"id":331,"name":"Shafali Verma","role":"Allrounder","base_price":2.0,"nationality":"Indian","set":4,"set_name":"WPL Indian Marquee (2 Cr)","league":"WPL"},{"id":332,"name":"Deepti Sharma","role":"Allrounder","base_price":2.0,"nationality":"Indian","set":4,"set_name":"WPL Indian Marquee (2 Cr)","league":"WPL"},{"id":333,"name":"Jemimah Rodrigues","role":"Batter","base_price":2.0,"nationality":"Indian","set":4,"set_name":"WPL Indian Marquee (2 Cr)","league":"WPL"},{"id":334,"name":"Smriti Mandhana","role":"Batter","base_price":2.0,"nationality":"Indian","set":4,"set_name":"WPL Indian Marquee (2 Cr)","league":"WPL"},{"id":335,"name":"Harmanpreet Kaur","role":"Batter","base_price":2.0,"nationality":"Indian","set":4,"set_name":"WPL Indian Marquee (2 Cr)","league":"WPL"},{"id":336,"name":"Richa Ghosh","role":"Wicketkeeper","base_price":2.0,"nationality":"Indian","set":4,"set_name":"WPL Indian Marquee (2 Cr)","league":"WPL"},{"id":337,"name":"Amanjot Kaur","role":"Allrounder","base_price":2.0,"nationality":"Indian","set":4,"set_name":"WPL Indian Marquee (2 Cr)","league":"WPL"},{"id":338,"name":"Harleen Deol","role":"Batter","base_price":2.0,"nationality":"Indian","set":4,"set_name":"WPL Indian Marquee (2 Cr)","league":"WPL"},{"id":339,"name":"Bharati Fulmali","role":"Batter","base_price":2.0,"nationality":"Indian","set":4,"set_name":"WPL Indian Marquee (2 Cr)","league":"WPL"},{"id":340,"name":"Sree Charani","role":"Bowler","base_price":2.0,"nationality":"Indian","set":4,"set_name":"WPL Indian Marquee (2 Cr)","league":"WPL"},{"id":341,"name":"Radha Yadav","role":"Allrounder","base_price":1.0,"nationality":"Indian","set":5,"set_name":"WPL Indian Stars (1 Cr)","league":"WPL"},{"id":342,"name":"Shreyanka Patil","role":"Bowler","base_price":1.0,"nationality":"Indian","set":5,"set_name":"WPL Indian Stars (1 Cr)","league":"WPL"},{"id":343,"name":"Sayali Satghare","role":"Bowler","base_price":1.0,"nationality":"Indian","set":5,"set_name":"WPL Indian Stars (1 Cr)","league":"WPL"},{"id":344,"name":"Kiran Navgire","role":"Batter","base_price":1.0,"nationality":"Indian","set":5,"set_name":"WPL Indian Stars (1 Cr)","league":"WPL"},{"id":345,"name":"Kranti Goud","role":"Bowler","base_price":1.0,"nationality":"Indian","set":5,"set_name":"WPL Indian Stars (1 Cr)","league":"WPL"},{"id":346,"name":"Shikha Pandey","role":"Bowler","base_price":1.0,"nationality":"Indian","set":5,"set_name":"WPL Indian Stars (1 Cr)","league":"WPL"},{"id":347,"name":"Asha Sobhana","role":"Bowler","base_price":1.0,"nationality":"Indian","set":5,"set_name":"WPL Indian Stars (1 Cr)","league":"WPL"},{"id":348,"name":"Yastika Bhatia","role":"Wicketkeeper","base_price":1.0,"nationality":"Indian","set":5,"set_name":"WPL Indian Stars (1 Cr)","league":"WPL"},{"id":349,"name":"Renuka Singh Thakur","role":"Bowler","base_price":1.0,"nationality":"Indian","set":5,"set_name":"WPL Indian Stars (1 Cr)","league":"WPL"},{"id":350,"name":"Kashvee Gautam","role":"Bowler","base_price":1.0,"nationality":"Indian","set":5,"set_name":"WPL Indian Stars (1 Cr)","league":"WPL"},{"id":351,"name":"Sneh Rana","role":"Allrounder","base_price":1.0,"nationality":"Indian","set":5,"set_name":"WPL Indian Stars (1 Cr)","league":"WPL"},{"id":352,"name":"Pooja Vastrakar","role":"Allrounder","base_price":1.0,"nationality":"Indian","set":5,"set_name":"WPL Indian Stars (1 Cr)","league":"WPL"},{"id":353,"name":"Sajeevan Sajana","role":"Batter","base_price":1.0,"nationality":"Indian","set":5,"set_name":"WPL Indian Stars (1 Cr)","league":"WPL"},{"id":354,"name":"Arundhati Reddy","role":"Bowler","base_price":1.0,"nationality":"Indian","set":5,"set_name":"WPL Indian Stars (1 Cr)","league":"WPL"},{"id":355,"name":"Pratika Rawal","role":"Batter","base_price":1.0,"nationality":"Indian","set":5,"set_name":"WPL Indian Stars (1 Cr)","league":"WPL"},{"id":356,"name":"Minnu Mani","role":"Bowler","base_price":0.5,"nationality":"Indian","set":6,"set_name":"WPL Indian Domestic Set A (0.5 Cr)","league":"WPL"},{"id":357,"name":"Nandni Sharma","role":"Bowler","base_price":0.5,"nationality":"Indian","set":6,"set_name":"WPL Indian Domestic Set A (0.5 Cr)","league":"WPL"},{"id":358,"name":"Kanika Ahuja","role":"Batter","base_price":0.5,"nationality":"Indian","set":6,"set_name":"WPL Indian Domestic Set A (0.5 Cr)","league":"WPL"},{"id":359,"name":"Prema Rawat","role":"Bowler","base_price":0.5,"nationality":"Indian","set":6,"set_name":"WPL Indian Domestic Set A (0.5 Cr)","league":"WPL"},{"id":360,"name":"Vrinda Dinesh","role":"Batter","base_price":0.5,"nationality":"Indian","set":6,"set_name":"WPL Indian Domestic Set A (0.5 Cr)","league":"WPL"},{"id":361,"name":"Disha Kasat","role":"Batter","base_price":0.5,"nationality":"Indian","set":6,"set_name":"WPL Indian Domestic Set A (0.5 Cr)","league":"WPL"},{"id":362,"name":"Shweta Sehrawat","role":"Batter","base_price":0.5,"nationality":"Indian","set":6,"set_name":"WPL Indian Domestic Set A (0.5 Cr)","league":"WPL"},{"id":363,"name":"Sanskriti Gupta","role":"Bowler","base_price":0.5,"nationality":"Indian","set":6,"set_name":"WPL Indian Domestic Set A (0.5 Cr)","league":"WPL"},{"id":364,"name":"Vaishnavi Sharma","role":"Bowler","base_price":0.5,"nationality":"Indian","set":6,"set_name":"WPL Indian Domestic Set A (0.5 Cr)","league":"WPL"},{"id":365,"name":"G. Kamalini","role":"Batter","base_price":0.5,"nationality":"Indian","set":6,"set_name":"WPL Indian Domestic Set A (0.5 Cr)","league":"WPL"},{"id":366,"name":"Tanuja Kanwar","role":"Bowler","base_price":0.5,"nationality":"Indian","set":6,"set_name":"WPL Indian Domestic Set A (0.5 Cr)","league":"WPL"},{"id":367,"name":"Anushka Sharma","role":"Batter","base_price":0.5,"nationality":"Indian","set":6,"set_name":"WPL Indian Domestic Set A (0.5 Cr)","league":"WPL"},{"id":368,"name":"Rajeshwari Gayakwad","role":"Bowler","base_price":0.5,"nationality":"Indian","set":6,"set_name":"WPL Indian Domestic Set A (0.5 Cr)","league":"WPL"},{"id":369,"name":"Niki Prasad","role":"Batter","base_price":0.5,"nationality":"Indian","set":6,"set_name":"WPL Indian Domestic Set A (0.5 Cr)","league":"WPL"},{"id":370,"name":"Uma Chetry","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":7,"set_name":"WPL Indian Domestic Set B (0.5 Cr)","league":"WPL"},{"id":371,"name":"Nazma Khan","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":7,"set_name":"WPL Indian Domestic Set B (0.5 Cr)","league":"WPL"},{"id":372,"name":"Madiwala Mamatha","role":"Wicketkeeper","base_price":0.5,"nationality":"Indian","set":7,"set_name":"WPL Indian Domestic Set B (0.5 Cr)","league":"WPL"},{"id":373,"name":"Deeya Yadav","role":"Batter","base_price":0.5,"nationality":"Indian","set":7,"set_name":"WPL Indian Domestic Set B (0.5 Cr)","league":"WPL"},{"id":374,"name":"Sushma Verma","role":"Wicketkeeper","base_price":0.5,"nationality":"Indian","set":7,"set_name":"WPL Indian Domestic Set B (0.5 Cr)","league":"WPL"},{"id":375,"name":"Manali Dakshini","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":7,"set_name":"WPL Indian Domestic Set B (0.5 Cr)","league":"WPL"},{"id":376,"name":"Shipra Giri","role":"Wicketkeeper","base_price":0.5,"nationality":"Indian","set":7,"set_name":"WPL Indian Domestic Set B (0.5 Cr)","league":"WPL"},{"id":377,"name":"Sahana Pawar","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":7,"set_name":"WPL Indian Domestic Set B (0.5 Cr)","league":"WPL"},{"id":378,"name":"Simran Shaikh","role":"Batter","base_price":0.5,"nationality":"Indian","set":7,"set_name":"WPL Indian Domestic Set B (0.5 Cr)","league":"WPL"},{"id":379,"name":"Jintimani Kalita","role":"Bowler","base_price":0.5,"nationality":"Indian","set":7,"set_name":"WPL Indian Domestic Set B (0.5 Cr)","league":"WPL"},{"id":380,"name":"Happy Kumari","role":"Bowler","base_price":0.5,"nationality":"Indian","set":7,"set_name":"WPL Indian Domestic Set B (0.5 Cr)","league":"WPL"},{"id":381,"name":"Samaira Raghav","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":7,"set_name":"WPL Indian Domestic Set B (0.5 Cr)","league":"WPL"},{"id":382,"name":"Akshita Bhagat","role":"Allrounder","base_price":0.5,"nationality":"Indian","set":7,"set_name":"WPL Indian Domestic Set B (0.5 Cr)","league":"WPL"},{"id":383,"name":"Saanika Chalke","role":"Batter","base_price":0.5,"nationality":"Indian","set":7,"set_name":"WPL Indian Domestic Set B (0.5 Cr)","league":"WPL"},{"id":384,"name":"Rahila Firdous","role":"Wicketkeeper","base_price":0.5,"nationality":"Indian","set":7,"set_name":"WPL Indian Domestic Set B (0.5 Cr)","league":"WPL"},{"id":385,"name":"Latika Inamdar","role":"Wicketkeeper","base_price":0.5,"nationality":"Indian","set":7,"set_name":"WPL Indian Domestic Set B (0.5 Cr)","league":"WPL"},{"id":386,"name":"Bharti Rawal","role":"Bowler","base_price":0.5,"nationality":"Indian","set":7,"set_name":"WPL Indian Domestic Set B (0.5 Cr)","league":"WPL"},{"id":387,"name":"Tejal Hasabnis","role":"Batter","base_price":0.5,"nationality":"Indian","set":7,"set_name":"WPL Indian Domestic Set B (0.5 Cr)","league":"WPL"},{"id":388,"name":"Kumar Prathyoosha","role":"Wicketkeeper","base_price":0.5,"nationality":"Indian","set":7,"set_name":"WPL Indian Domestic Set B (0.5 Cr)","league":"WPL"}]
+​EMBEDDED_PLAYERS = [
+{
+"id": 1,
+"name": "KL Rahul",
+"role": "Wicketkeeper",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 2,
+"set_name": "Indian WKs (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 2,
+"name": "Ishan Kishan",
+"role": "Wicketkeeper",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 2,
+"set_name": "Indian WKs (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 3,
+"name": "Dhruv Jurel",
+"role": "Wicketkeeper",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 2,
+"set_name": "Indian WKs (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 4,
+"name": "Jitesh Sharma",
+"role": "Wicketkeeper",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 2,
+"set_name": "Indian WKs (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 5,
+"name": "Rishabh Pant",
+"role": "Wicketkeeper",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 2,
+"set_name": "Indian WKs (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 6,
+"name": "Sanju Samson",
+"role": "Wicketkeeper",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 2,
+"set_name": "Indian WKs (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 7,
+"name": "MS Dhoni",
+"role": "Wicketkeeper",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 2,
+"set_name": "Indian WKs (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 8,
+"name": "Shreyas Iyer",
+"role": "Batter",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 1,
+"set_name": "Indian Batters (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 9,
+"name": "Suryakumar Yadav",
+"role": "Batter",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 1,
+"set_name": "Indian Batters (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 10,
+"name": "Yashasvi Jaiswal",
+"role": "Batter",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 1,
+"set_name": "Indian Batters (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 11,
+"name": "Sai Sudharsan",
+"role": "Batter",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 1,
+"set_name": "Indian Batters (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 12,
+"name": "Ruturaj Gaikwad",
+"role": "Batter",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 1,
+"set_name": "Indian Batters (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 13,
+"name": "Shubman Gill",
+"role": "Batter",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 1,
+"set_name": "Indian Batters (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 14,
+"name": "Prabhsimran Singh",
+"role": "Batter",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 1,
+"set_name": "Indian Batters (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 15,
+"name": "Priyansh Arya",
+"role": "Batter",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 1,
+"set_name": "Indian Batters (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 16,
+"name": "Ajinkya Rahane",
+"role": "Batter",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 1,
+"set_name": "Indian Batters (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 17,
+"name": "Rajat Patidar",
+"role": "Batter",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 1,
+"set_name": "Indian Batters (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 18,
+"name": "Virat Kohli",
+"role": "Batter",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 1,
+"set_name": "Indian Batters (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 19,
+"name": "Abhishek Sharma",
+"role": "Allrounder",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 3,
+"set_name": "Indian All-rounders (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 20,
+"name": "Hardik Pandya",
+"role": "Allrounder",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 3,
+"set_name": "Indian All-rounders (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 21,
+"name": "Riyan Parag",
+"role": "Allrounder",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 3,
+"set_name": "Indian All-rounders (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 22,
+"name": "Axar Patel",
+"role": "Allrounder",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 3,
+"set_name": "Indian All-rounders (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 23,
+"name": "Ravindra Jadeja",
+"role": "Allrounder",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 3,
+"set_name": "Indian All-rounders (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 24,
+"name": "Krunal Pandya",
+"role": "Allrounder",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 3,
+"set_name": "Indian All-rounders (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 25,
+"name": "Shivam Dube",
+"role": "Allrounder",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 3,
+"set_name": "Indian All-rounders (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 26,
+"name": "Prasidh Krishna",
+"role": "Bowler",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 4,
+"set_name": "Indian Bowlers (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 27,
+"name": "Jasprit Bumrah",
+"role": "Bowler",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 4,
+"set_name": "Indian Bowlers (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 28,
+"name": "Arshdeep Singh",
+"role": "Bowler",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 4,
+"set_name": "Indian Bowlers (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 29,
+"name": "Mohammed Siraj",
+"role": "Bowler",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 4,
+"set_name": "Indian Bowlers (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 30,
+"name": "Varun Chakravarthy",
+"role": "Bowler",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 4,
+"set_name": "Indian Bowlers (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 31,
+"name": "Kuldeep Yadav",
+"role": "Bowler",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 4,
+"set_name": "Indian Bowlers (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 32,
+"name": "Bhuvneshwar Kumar",
+"role": "Bowler",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 4,
+"set_name": "Indian Bowlers (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 33,
+"name": "Harshit Rana",
+"role": "Bowler",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 4,
+"set_name": "Indian Bowlers (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 34,
+"name": "Nicholas Pooran",
+"role": "Wicketkeeper",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 6,
+"set_name": "Foreign WKs (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 35,
+"name": "Jos Buttler",
+"role": "Wicketkeeper",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 6,
+"set_name": "Foreign WKs (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 36,
+"name": "Phil Salt",
+"role": "Wicketkeeper",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 6,
+"set_name": "Foreign WKs (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 37,
+"name": "Heinrich Klaasen",
+"role": "Wicketkeeper",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 6,
+"set_name": "Foreign WKs (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 38,
+"name": "Tristan Stubbs",
+"role": "Wicketkeeper",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 6,
+"set_name": "Foreign WKs (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 39,
+"name": "Sunil Narine",
+"role": "Allrounder",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 7,
+"set_name": "Foreign All-rounders (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 40,
+"name": "Aiden Markram",
+"role": "Allrounder",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 7,
+"set_name": "Foreign All-rounders (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 41,
+"name": "Marco Jansen",
+"role": "Allrounder",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 7,
+"set_name": "Foreign All-rounders (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 42,
+"name": "Marcus Stoinis",
+"role": "Allrounder",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 7,
+"set_name": "Foreign All-rounders (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 43,
+"name": "Romario Shepherd",
+"role": "Allrounder",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 7,
+"set_name": "Foreign All-rounders (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 44,
+"name": "Cameron Green",
+"role": "Allrounder",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 7,
+"set_name": "Foreign All-rounders (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 45,
+"name": "Rohit Sharma",
+"role": "Batter",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 1,
+"set_name": "Indian Batters (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 46,
+"name": "Mitchell Marsh",
+"role": "Batter",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 5,
+"set_name": "Foreign Batters (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 47,
+"name": "Travis Head",
+"role": "Batter",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 5,
+"set_name": "Foreign Batters (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 48,
+"name": "Tim David",
+"role": "Batter",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 5,
+"set_name": "Foreign Batters (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 49,
+"name": "Dewald Brevis",
+"role": "Batter",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 5,
+"set_name": "Foreign Batters (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 50,
+"name": "Pat Cummins",
+"role": "Bowler",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 8,
+"set_name": "Foreign Bowlers (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 51,
+"name": "Trent Boult",
+"role": "Bowler",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 8,
+"set_name": "Foreign Bowlers (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 52,
+"name": "Josh Hazlewood",
+"role": "Bowler",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 8,
+"set_name": "Foreign Bowlers (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 53,
+"name": "Noor Ahmad",
+"role": "Bowler",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 8,
+"set_name": "Foreign Bowlers (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 54,
+"name": "Kagiso Rabada",
+"role": "Bowler",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 8,
+"set_name": "Foreign Bowlers (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 55,
+"name": "Jofra Archer",
+"role": "Bowler",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 8,
+"set_name": "Foreign Bowlers (2 Cr)",
+"league": "IPL"
+},
+{
+"id": 56,
+"name": "Vaibhav Suryavanshi",
+"role": "Batter",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 9,
+"set_name": "Indian Batters (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 57,
+"name": "Tilak Varma",
+"role": "Batter",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 9,
+"set_name": "Indian Batters (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 58,
+"name": "Devdutt Padikkal",
+"role": "Batter",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 9,
+"set_name": "Indian Batters (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 59,
+"name": "Nehal Wadhera",
+"role": "Batter",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 9,
+"set_name": "Indian Batters (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 60,
+"name": "Naman Dhir",
+"role": "Batter",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 9,
+"set_name": "Indian Batters (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 61,
+"name": "Shashank Singh",
+"role": "Batter",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 9,
+"set_name": "Indian Batters (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 62,
+"name": "Angkrish Raghuvanshi",
+"role": "Batter",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 9,
+"set_name": "Indian Batters (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 63,
+"name": "Rinku Singh",
+"role": "Batter",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 9,
+"set_name": "Indian Batters (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 64,
+"name": "Ashutosh Sharma",
+"role": "Batter",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 9,
+"set_name": "Indian Batters (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 65,
+"name": "Ayush Mhatre",
+"role": "Batter",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 9,
+"set_name": "Indian Batters (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 66,
+"name": "Ramandeep Singh",
+"role": "Batter",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 9,
+"set_name": "Indian Batters (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 67,
+"name": "Aniket Verma",
+"role": "Batter",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 9,
+"set_name": "Indian Batters (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 68,
+"name": "Shubham Dubey",
+"role": "Batter",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 9,
+"set_name": "Indian Batters (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 69,
+"name": "Abhishek Porel",
+"role": "Wicketkeeper",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 10,
+"set_name": "Indian WKs & ARs (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 70,
+"name": "Urvil Patel",
+"role": "Wicketkeeper",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 10,
+"set_name": "Indian WKs & ARs (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 71,
+"name": "Nitish Kumar Reddy",
+"role": "Allrounder",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 10,
+"set_name": "Indian WKs & ARs (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 72,
+"name": "Washington Sundar",
+"role": "Allrounder",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 10,
+"set_name": "Indian WKs & ARs (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 73,
+"name": "Venkatesh Iyer",
+"role": "Allrounder",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 10,
+"set_name": "Indian WKs & ARs (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 74,
+"name": "Rahul Tewatia",
+"role": "Allrounder",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 10,
+"set_name": "Indian WKs & ARs (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 75,
+"name": "Ayush Badoni",
+"role": "Allrounder",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 10,
+"set_name": "Indian WKs & ARs (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 76,
+"name": "Vipraj Nigam",
+"role": "Allrounder",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 10,
+"set_name": "Indian WKs & ARs (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 77,
+"name": "Harsh Dubey",
+"role": "Allrounder",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 10,
+"set_name": "Indian WKs & ARs (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 78,
+"name": "Khaleel Ahmed",
+"role": "Bowler",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 11,
+"set_name": "Indian Bowlers (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 79,
+"name": "Yash Dayal",
+"role": "Bowler",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 11,
+"set_name": "Indian Bowlers (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 80,
+"name": "Deepak Chahar",
+"role": "Bowler",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 11,
+"set_name": "Indian Bowlers (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 81,
+"name": "Vaibhav Arora",
+"role": "Bowler",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 11,
+"set_name": "Indian Bowlers (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 82,
+"name": "Sai Kishore",
+"role": "Bowler",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 11,
+"set_name": "Indian Bowlers (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 83,
+"name": "Digvesh Singh Rathi",
+"role": "Bowler",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 11,
+"set_name": "Indian Bowlers (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 84,
+"name": "Harshal Patel",
+"role": "Bowler",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 11,
+"set_name": "Indian Bowlers (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 85,
+"name": "Avesh Khan",
+"role": "Bowler",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 11,
+"set_name": "Indian Bowlers (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 86,
+"name": "Yuzvendra Chahal",
+"role": "Bowler",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 11,
+"set_name": "Indian Bowlers (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 87,
+"name": "Suyash Sharma",
+"role": "Bowler",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 11,
+"set_name": "Indian Bowlers (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 88,
+"name": "Mukesh Kumar",
+"role": "Bowler",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 11,
+"set_name": "Indian Bowlers (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 89,
+"name": "Shardul Thakur",
+"role": "Bowler",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 11,
+"set_name": "Indian Bowlers (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 90,
+"name": "Tushar Deshpande",
+"role": "Bowler",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 11,
+"set_name": "Indian Bowlers (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 91,
+"name": "Sandeep Sharma",
+"role": "Bowler",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 11,
+"set_name": "Indian Bowlers (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 92,
+"name": "Mohammed Shami",
+"role": "Bowler",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 11,
+"set_name": "Indian Bowlers (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 93,
+"name": "Sherfane Rutherford",
+"role": "Batter",
+"base_price": 1.0,
+"nationality": "Foreigner",
+"set": 12,
+"set_name": "Foreign Batters & WKs (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 94,
+"name": "Shimron Hetmyer",
+"role": "Batter",
+"base_price": 1.0,
+"nationality": "Foreigner",
+"set": 12,
+"set_name": "Foreign Batters & WKs (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 95,
+"name": "Glenn Phillips",
+"role": "Batter",
+"base_price": 1.0,
+"nationality": "Foreigner",
+"set": 12,
+"set_name": "Foreign Batters & WKs (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 96,
+"name": "David Miller",
+"role": "Batter",
+"base_price": 1.0,
+"nationality": "Foreigner",
+"set": 12,
+"set_name": "Foreign Batters & WKs (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 97,
+"name": "Pathum Nissanka",
+"role": "Batter",
+"base_price": 1.0,
+"nationality": "Foreigner",
+"set": 12,
+"set_name": "Foreign Batters & WKs (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 98,
+"name": "Ryan Rickelton",
+"role": "Wicketkeeper",
+"base_price": 1.0,
+"nationality": "Foreigner",
+"set": 12,
+"set_name": "Foreign Batters & WKs (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 99,
+"name": "Quinton de Kock",
+"role": "Wicketkeeper",
+"base_price": 1.0,
+"nationality": "Foreigner",
+"set": 12,
+"set_name": "Foreign Batters & WKs (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 100,
+"name": "Tim Seifert",
+"role": "Wicketkeeper",
+"base_price": 1.0,
+"nationality": "Foreigner",
+"set": 12,
+"set_name": "Foreign Batters & WKs (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 101,
+"name": "Will Jacks",
+"role": "Allrounder",
+"base_price": 1.0,
+"nationality": "Foreigner",
+"set": 13,
+"set_name": "Foreign ARs & Bowlers (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 102,
+"name": "Mitchell Santner",
+"role": "Allrounder",
+"base_price": 1.0,
+"nationality": "Foreigner",
+"set": 13,
+"set_name": "Foreign ARs & Bowlers (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 103,
+"name": "Akeal Hosein",
+"role": "Allrounder",
+"base_price": 1.0,
+"nationality": "Foreigner",
+"set": 13,
+"set_name": "Foreign ARs & Bowlers (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 104,
+"name": "Liam Livingstone",
+"role": "Allrounder",
+"base_price": 1.0,
+"nationality": "Foreigner",
+"set": 13,
+"set_name": "Foreign ARs & Bowlers (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 105,
+"name": "Sam Curran",
+"role": "Allrounder",
+"base_price": 1.0,
+"nationality": "Foreigner",
+"set": 13,
+"set_name": "Foreign ARs & Bowlers (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 106,
+"name": "Rashid Khan",
+"role": "Bowler",
+"base_price": 1.0,
+"nationality": "Foreigner",
+"set": 13,
+"set_name": "Foreign ARs & Bowlers (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 107,
+"name": "Mitchell Starc",
+"role": "Bowler",
+"base_price": 1.0,
+"nationality": "Foreigner",
+"set": 13,
+"set_name": "Foreign ARs & Bowlers (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 108,
+"name": "Nathan Ellis",
+"role": "Bowler",
+"base_price": 1.0,
+"nationality": "Foreigner",
+"set": 13,
+"set_name": "Foreign ARs & Bowlers (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 109,
+"name": "Matheesha Pathirana",
+"role": "Bowler",
+"base_price": 1.0,
+"nationality": "Foreigner",
+"set": 13,
+"set_name": "Foreign ARs & Bowlers (1 Cr)",
+"league": "IPL"
+},
+{
+"id": 110,
+"name": "Abdul Samad",
+"role": "Batter",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 20,
+"set_name": "Indian Batters (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 111,
+"name": "Shahrukh Khan",
+"role": "Batter",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 20,
+"set_name": "Indian Batters (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 112,
+"name": "Karun Nair",
+"role": "Batter",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 20,
+"set_name": "Indian Batters (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 113,
+"name": "Nitish Rana",
+"role": "Batter",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 20,
+"set_name": "Indian Batters (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 114,
+"name": "Sameer Rizvi",
+"role": "Batter",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 20,
+"set_name": "Indian Batters (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 115,
+"name": "Manish Pandey",
+"role": "Batter",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 20,
+"set_name": "Indian Batters (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 116,
+"name": "Himmat Singh",
+"role": "Batter",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 20,
+"set_name": "Indian Batters (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 117,
+"name": "S. Ravichandran",
+"role": "Batter",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 20,
+"set_name": "Indian Batters (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 118,
+"name": "Rahul Tripathi",
+"role": "Batter",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 20,
+"set_name": "Indian Batters (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 119,
+"name": "Prithvi Shaw",
+"role": "Batter",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 20,
+"set_name": "Indian Batters (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 120,
+"name": "Sahil Parakh",
+"role": "Batter",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 20,
+"set_name": "Indian Batters (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 121,
+"name": "Akshat Raghuwanshi",
+"role": "Batter",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 20,
+"set_name": "Indian Batters (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 122,
+"name": "Danish Malewar",
+"role": "Batter",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 20,
+"set_name": "Indian Batters (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 123,
+"name": "Aman Rao",
+"role": "Batter",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 20,
+"set_name": "Indian Batters (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 124,
+"name": "Sarfaraz Khan",
+"role": "Wicketkeeper",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 19,
+"set_name": "Indian Wicketkeepers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 125,
+"name": "Kartik Sharma",
+"role": "Wicketkeeper",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 19,
+"set_name": "Indian Wicketkeepers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 126,
+"name": "Robin Minz",
+"role": "Wicketkeeper",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 19,
+"set_name": "Indian Wicketkeepers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 127,
+"name": "Anuj Rawat",
+"role": "Wicketkeeper",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 19,
+"set_name": "Indian Wicketkeepers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 128,
+"name": "Kumar Kushagra",
+"role": "Wicketkeeper",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 19,
+"set_name": "Indian Wicketkeepers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 129,
+"name": "Vishnu Vinod",
+"role": "Wicketkeeper",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 19,
+"set_name": "Indian Wicketkeepers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 130,
+"name": "Tejasvi Dahiya",
+"role": "Wicketkeeper",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 19,
+"set_name": "Indian Wicketkeepers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 131,
+"name": "Aman Khan",
+"role": "Wicketkeeper",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 19,
+"set_name": "Indian Wicketkeepers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 132,
+"name": "Mukul Choudhary",
+"role": "Wicketkeeper",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 19,
+"set_name": "Indian Wicketkeepers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 133,
+"name": "Ravi Singh",
+"role": "Wicketkeeper",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 19,
+"set_name": "Indian Wicketkeepers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 134,
+"name": "Salil Arora",
+"role": "Wicketkeeper",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 19,
+"set_name": "Indian Wicketkeepers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 135,
+"name": "Shahbaz Ahmad",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 18,
+"set_name": "Indian Allrounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 136,
+"name": "Manav Suthar",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 18,
+"set_name": "Indian Allrounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 137,
+"name": "Arjun Tendulkar",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 18,
+"set_name": "Indian Allrounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 138,
+"name": "Prashant Veer",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 18,
+"set_name": "Indian Allrounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 139,
+"name": "Auqib Dar",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 18,
+"set_name": "Indian Allrounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 140,
+"name": "Mangesh Yadav",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 18,
+"set_name": "Indian Allrounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 141,
+"name": "Ramakrishna Ghosh",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 18,
+"set_name": "Indian Allrounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 142,
+"name": "Ajay Mandal",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 18,
+"set_name": "Indian Allrounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 143,
+"name": "Madhav Tiwari",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 18,
+"set_name": "Indian Allrounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 144,
+"name": "Tripurana Vijay",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 18,
+"set_name": "Indian Allrounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 145,
+"name": "Gurnoor Singh Brar",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 18,
+"set_name": "Indian Allrounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 146,
+"name": "Nishant Sindhu",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 18,
+"set_name": "Indian Allrounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 147,
+"name": "Arshin Kulkarni",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 18,
+"set_name": "Indian Allrounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 148,
+"name": "Raj Angad Bawa",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 18,
+"set_name": "Indian Allrounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 149,
+"name": "Harnoor Pannu",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 18,
+"set_name": "Indian Allrounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 150,
+"name": "Musheer Khan",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 18,
+"set_name": "Indian Allrounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 151,
+"name": "Pyla Avinash",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 18,
+"set_name": "Indian Allrounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 152,
+"name": "Suryansh Shedge",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 18,
+"set_name": "Indian Allrounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 153,
+"name": "Abhinandan Singh",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 18,
+"set_name": "Indian Allrounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 154,
+"name": "Swapnil Singh",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 18,
+"set_name": "Indian Allrounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 155,
+"name": "Daksh Kamra",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 18,
+"set_name": "Indian Allrounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 156,
+"name": "Prashant Solanki",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 18,
+"set_name": "Indian Allrounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 157,
+"name": "Sarthak Ranjan",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 18,
+"set_name": "Indian Allrounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 158,
+"name": "Naman Tiwari",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 18,
+"set_name": "Indian Allrounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 159,
+"name": "Atharva Ankolekar",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 18,
+"set_name": "Indian Allrounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 160,
+"name": "Mayank Rawat",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 18,
+"set_name": "Indian Allrounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 161,
+"name": "Satwik Deswal",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 18,
+"set_name": "Indian Allrounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 162,
+"name": "Kanishk Chouhan",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 18,
+"set_name": "Indian Allrounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 163,
+"name": "Vihaan Malhotra",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 18,
+"set_name": "Indian Allrounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 164,
+"name": "Vicky Ostwal",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 18,
+"set_name": "Indian Allrounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 165,
+"name": "Shivang Kumar",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 18,
+"set_name": "Indian Allrounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 166,
+"name": "T Natarajan",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 167,
+"name": "Ashwani Kumar",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 168,
+"name": "Jaydev Unadkat",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 169,
+"name": "Anshul Kamboj",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 170,
+"name": "Gurjapneet Singh",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 171,
+"name": "Arshad Khan",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 172,
+"name": "Zeeshan Ansari",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 173,
+"name": "Harpreet Brar",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 174,
+"name": "Prince Yadav",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 175,
+"name": "Ishant Sharma",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 176,
+"name": "Vijaykumar Vyshak",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 177,
+"name": "Yudhvir Singh",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 178,
+"name": "Akash Singh",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 179,
+"name": "Mayank Yadav",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 180,
+"name": "Umran Malik",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 181,
+"name": "Mohsin Khan",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 182,
+"name": "Mayank Markande",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 183,
+"name": "M Siddharth",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 184,
+"name": "Rasikh Dar",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 185,
+"name": "Mukesh Choudhary",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 186,
+"name": "Yash Thakur",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 187,
+"name": "Anukul Roy",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 188,
+"name": "Shreyas Gopal",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 189,
+"name": "Jayant Yadav",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 190,
+"name": "Raghu Sharma",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 191,
+"name": "Akash Deep",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 192,
+"name": "Kartik Tyagi",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 193,
+"name": "Rahul Chahar",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 194,
+"name": "Ravi Bishnoi",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 195,
+"name": "Ashok Sharma",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 196,
+"name": "Prithviraj Yarra",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 197,
+"name": "Mohammad Izhar",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 198,
+"name": "Vishal Nishad",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 199,
+"name": "Pravin Dubey",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 200,
+"name": "Vignesh Puthur",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 201,
+"name": "Sushant Mishra",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 202,
+"name": "Yash Raj Punja",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 203,
+"name": "Brijesh Sharma",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 204,
+"name": "Kuldeep Sen",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 205,
+"name": "Krains Fuletra",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 206,
+"name": "Praful Hinge",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 207,
+"name": "Amit Kumar",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 208,
+"name": "Onkar Tarmale",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 209,
+"name": "Sakib Hussain",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 210,
+"name": "Shivam Mavi",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 17,
+"set_name": "Indian Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 211,
+"name": "Tom Banton",
+"role": "Batter",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 16,
+"set_name": "Foreign WKs & Batters (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 212,
+"name": "Jordan Cox",
+"role": "Batter",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 16,
+"set_name": "Foreign WKs & Batters (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 213,
+"name": "Jacob Bethell",
+"role": "Batter",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 16,
+"set_name": "Foreign WKs & Batters (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 214,
+"name": "Matthew Breetzke",
+"role": "Wicketkeeper",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 16,
+"set_name": "Foreign WKs & Batters (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 215,
+"name": "Donovan Ferreira",
+"role": "Wicketkeeper",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 16,
+"set_name": "Foreign WKs & Batters (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 216,
+"name": "Finn Allen",
+"role": "Wicketkeeper",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 16,
+"set_name": "Foreign WKs & Batters (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 217,
+"name": "Josh Inglis",
+"role": "Wicketkeeper",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 16,
+"set_name": "Foreign WKs & Batters (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 218,
+"name": "Ben Duckett",
+"role": "Wicketkeeper",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 16,
+"set_name": "Foreign WKs & Batters (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 219,
+"name": "Jamie Overton",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 15,
+"set_name": "Foreign All-rounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 220,
+"name": "Rachin Ravindra",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 15,
+"set_name": "Foreign All-rounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 221,
+"name": "Azmatullah Omarzai",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 15,
+"set_name": "Foreign All-rounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 222,
+"name": "Kamindu Mendis",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 15,
+"set_name": "Foreign All-rounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 223,
+"name": "Rovman Powell",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 15,
+"set_name": "Foreign All-rounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 224,
+"name": "Mitchell Owen",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 15,
+"set_name": "Foreign All-rounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 225,
+"name": "Matthew Short",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 15,
+"set_name": "Foreign All-rounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 226,
+"name": "Zac Foulkes",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 15,
+"set_name": "Foreign All-rounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 227,
+"name": "Jason Holder",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 15,
+"set_name": "Foreign All-rounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 228,
+"name": "Wanindu Hasaranga",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 15,
+"set_name": "Foreign All-rounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 229,
+"name": "Cooper Connolly",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 15,
+"set_name": "Foreign All-rounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 230,
+"name": "Ben Dwarshuis",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 15,
+"set_name": "Foreign All-rounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 231,
+"name": "Jack Edwards",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 15,
+"set_name": "Foreign All-rounders (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 232,
+"name": "Eshan Malinga",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 14,
+"set_name": "Foreign Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 233,
+"name": "Corbin Bosch",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 14,
+"set_name": "Foreign Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 234,
+"name": "Xavier Bartlett",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 14,
+"set_name": "Foreign Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 235,
+"name": "Lockie Ferguson",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 14,
+"set_name": "Foreign Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 236,
+"name": "Dushmantha Chameera",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 14,
+"set_name": "Foreign Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 237,
+"name": "Kwena Maphaka",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 14,
+"set_name": "Foreign Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 238,
+"name": "Nandre Burger",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 14,
+"set_name": "Foreign Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 239,
+"name": "Allah Ghazanfar",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 14,
+"set_name": "Foreign Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 240,
+"name": "Lhuan-dre Pretorius",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 14,
+"set_name": "Foreign Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 241,
+"name": "Nuwan Thushara",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 14,
+"set_name": "Foreign Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 242,
+"name": "Brydon Carse",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 14,
+"set_name": "Foreign Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 243,
+"name": "Mustafizur Rahman",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 14,
+"set_name": "Foreign Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 244,
+"name": "Matt Henry",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 14,
+"set_name": "Foreign Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 245,
+"name": "Lungi Ngidi",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 14,
+"set_name": "Foreign Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 246,
+"name": "Kyle Jamieson",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 14,
+"set_name": "Foreign Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 247,
+"name": "Luke Wood",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 14,
+"set_name": "Foreign Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 248,
+"name": "Anrich Nortje",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 14,
+"set_name": "Foreign Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 249,
+"name": "Adam Milne",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 14,
+"set_name": "Foreign Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 250,
+"name": "Jacob Duffy",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 14,
+"set_name": "Foreign Bowlers (0.5 Cr)",
+"league": "IPL"
+},
+{
+"id": 301,
+"name": "Sophie Devine",
+"role": "Allrounder",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 1,
+"set_name": "WPL Foreign All-rounders (2 Cr)",
+"league": "WPL"
+},
+{
+"id": 302,
+"name": "Nadine de Klerk",
+"role": "Allrounder",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 1,
+"set_name": "WPL Foreign All-rounders (2 Cr)",
+"league": "WPL"
+},
+{
+"id": 303,
+"name": "Nat Sciver-Brunt",
+"role": "Allrounder",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 1,
+"set_name": "WPL Foreign All-rounders (2 Cr)",
+"league": "WPL"
+},
+{
+"id": 304,
+"name": "Marizanne Kapp",
+"role": "Allrounder",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 1,
+"set_name": "WPL Foreign All-rounders (2 Cr)",
+"league": "WPL"
+},
+{
+"id": 305,
+"name": "Chinelle Henry",
+"role": "Allrounder",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 1,
+"set_name": "WPL Foreign All-rounders (2 Cr)",
+"league": "WPL"
+},
+{
+"id": 306,
+"name": "Georgia Wareham",
+"role": "Allrounder",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 1,
+"set_name": "WPL Foreign All-rounders (2 Cr)",
+"league": "WPL"
+},
+{
+"id": 307,
+"name": "Grace Harris",
+"role": "Allrounder",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 1,
+"set_name": "WPL Foreign All-rounders (2 Cr)",
+"league": "WPL"
+},
+{
+"id": 308,
+"name": "Ellyse Perry",
+"role": "Allrounder",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 1,
+"set_name": "WPL Foreign All-rounders (2 Cr)",
+"league": "WPL"
+},
+{
+"id": 309,
+"name": "Ashleigh Gardner",
+"role": "Allrounder",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 1,
+"set_name": "WPL Foreign All-rounders (2 Cr)",
+"league": "WPL"
+},
+{
+"id": 310,
+"name": "Amelia Kerr",
+"role": "Allrounder",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 1,
+"set_name": "WPL Foreign All-rounders (2 Cr)",
+"league": "WPL"
+},
+{
+"id": 311,
+"name": "Annabel Sutherland",
+"role": "Allrounder",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 1,
+"set_name": "WPL Foreign All-rounders (2 Cr)",
+"league": "WPL"
+},
+{
+"id": 312,
+"name": "Hayley Matthews",
+"role": "Allrounder",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 1,
+"set_name": "WPL Foreign All-rounders (2 Cr)",
+"league": "WPL"
+},
+{
+"id": 313,
+"name": "Beth Mooney",
+"role": "Wicketkeeper",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 2,
+"set_name": "WPL Foreign Stars (1-2 Cr)",
+"league": "WPL"
+},
+{
+"id": 314,
+"name": "Phoebe Litchfield",
+"role": "Batter",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 2,
+"set_name": "WPL Foreign Stars (1-2 Cr)",
+"league": "WPL"
+},
+{
+"id": 315,
+"name": "Laura Wolvaardt",
+"role": "Batter",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 2,
+"set_name": "WPL Foreign Stars (1-2 Cr)",
+"league": "WPL"
+},
+{
+"id": 316,
+"name": "Meg Lanning",
+"role": "Batter",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 2,
+"set_name": "WPL Foreign Stars (1-2 Cr)",
+"league": "WPL"
+},
+{
+"id": 317,
+"name": "Lauren Bell",
+"role": "Bowler",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 2,
+"set_name": "WPL Foreign Stars (1-2 Cr)",
+"league": "WPL"
+},
+{
+"id": 318,
+"name": "Sophie Ecclestone",
+"role": "Bowler",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 2,
+"set_name": "WPL Foreign Stars (1-2 Cr)",
+"league": "WPL"
+},
+{
+"id": 319,
+"name": "Shabnim Ismail",
+"role": "Bowler",
+"base_price": 2.0,
+"nationality": "Foreigner",
+"set": 2,
+"set_name": "WPL Foreign Stars (1-2 Cr)",
+"league": "WPL"
+},
+{
+"id": 320,
+"name": "Nicola Carey",
+"role": "Allrounder",
+"base_price": 1.0,
+"nationality": "Foreigner",
+"set": 2,
+"set_name": "WPL Foreign Stars (1-2 Cr)",
+"league": "WPL"
+},
+{
+"id": 321,
+"name": "Sophie Molineux",
+"role": "Allrounder",
+"base_price": 1.0,
+"nationality": "Foreigner",
+"set": 2,
+"set_name": "WPL Foreign Stars (1-2 Cr)",
+"league": "WPL"
+},
+{
+"id": 322,
+"name": "Jess Jonassen",
+"role": "Allrounder",
+"base_price": 1.0,
+"nationality": "Foreigner",
+"set": 2,
+"set_name": "WPL Foreign Stars (1-2 Cr)",
+"league": "WPL"
+},
+{
+"id": 323,
+"name": "Georgia Voll",
+"role": "Batter",
+"base_price": 1.0,
+"nationality": "Foreigner",
+"set": 2,
+"set_name": "WPL Foreign Stars (1-2 Cr)",
+"league": "WPL"
+},
+{
+"id": 324,
+"name": "Chloe Tryon",
+"role": "Allrounder",
+"base_price": 1.0,
+"nationality": "Foreigner",
+"set": 3,
+"set_name": "WPL Foreign ARs & Bowlers (0.5-1 Cr)",
+"league": "WPL"
+},
+{
+"id": 325,
+"name": "Tara Norris",
+"role": "Bowler",
+"base_price": 1.0,
+"nationality": "Foreigner",
+"set": 3,
+"set_name": "WPL Foreign ARs & Bowlers (0.5-1 Cr)",
+"league": "WPL"
+},
+{
+"id": 326,
+"name": "Kathryn Bryce",
+"role": "Allrounder",
+"base_price": 1.0,
+"nationality": "Foreigner",
+"set": 3,
+"set_name": "WPL Foreign ARs & Bowlers (0.5-1 Cr)",
+"league": "WPL"
+},
+{
+"id": 327,
+"name": "Kim Garth",
+"role": "Bowler",
+"base_price": 1.0,
+"nationality": "Foreigner",
+"set": 3,
+"set_name": "WPL Foreign ARs & Bowlers (0.5-1 Cr)",
+"league": "WPL"
+},
+{
+"id": 328,
+"name": "Orla Prendergast",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 3,
+"set_name": "WPL Foreign ARs & Bowlers (0.5-1 Cr)",
+"league": "WPL"
+},
+{
+"id": 329,
+"name": "Kirstie Gordon",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 3,
+"set_name": "WPL Foreign ARs & Bowlers (0.5-1 Cr)",
+"league": "WPL"
+},
+{
+"id": 330,
+"name": "Lucy Hamilton",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Foreigner",
+"set": 3,
+"set_name": "WPL Foreign ARs & Bowlers (0.5-1 Cr)",
+"league": "WPL"
+},
+{
+"id": 331,
+"name": "Shafali Verma",
+"role": "Allrounder",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 4,
+"set_name": "WPL Indian Marquee (2 Cr)",
+"league": "WPL"
+},
+{
+"id": 332,
+"name": "Deepti Sharma",
+"role": "Allrounder",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 4,
+"set_name": "WPL Indian Marquee (2 Cr)",
+"league": "WPL"
+},
+{
+"id": 333,
+"name": "Jemimah Rodrigues",
+"role": "Batter",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 4,
+"set_name": "WPL Indian Marquee (2 Cr)",
+"league": "WPL"
+},
+{
+"id": 334,
+"name": "Smriti Mandhana",
+"role": "Batter",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 4,
+"set_name": "WPL Indian Marquee (2 Cr)",
+"league": "WPL"
+},
+{
+"id": 335,
+"name": "Harmanpreet Kaur",
+"role": "Batter",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 4,
+"set_name": "WPL Indian Marquee (2 Cr)",
+"league": "WPL"
+},
+{
+"id": 336,
+"name": "Richa Ghosh",
+"role": "Wicketkeeper",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 4,
+"set_name": "WPL Indian Marquee (2 Cr)",
+"league": "WPL"
+},
+{
+"id": 337,
+"name": "Amanjot Kaur",
+"role": "Allrounder",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 4,
+"set_name": "WPL Indian Marquee (2 Cr)",
+"league": "WPL"
+},
+{
+"id": 338,
+"name": "Harleen Deol",
+"role": "Batter",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 4,
+"set_name": "WPL Indian Marquee (2 Cr)",
+"league": "WPL"
+},
+{
+"id": 339,
+"name": "Bharati Fulmali",
+"role": "Batter",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 4,
+"set_name": "WPL Indian Marquee (2 Cr)",
+"league": "WPL"
+},
+{
+"id": 340,
+"name": "Sree Charani",
+"role": "Bowler",
+"base_price": 2.0,
+"nationality": "Indian",
+"set": 4,
+"set_name": "WPL Indian Marquee (2 Cr)",
+"league": "WPL"
+},
+{
+"id": 341,
+"name": "Radha Yadav",
+"role": "Allrounder",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 5,
+"set_name": "WPL Indian Stars (1 Cr)",
+"league": "WPL"
+},
+{
+"id": 342,
+"name": "Shreyanka Patil",
+"role": "Bowler",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 5,
+"set_name": "WPL Indian Stars (1 Cr)",
+"league": "WPL"
+},
+{
+"id": 343,
+"name": "Sayali Satghare",
+"role": "Bowler",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 5,
+"set_name": "WPL Indian Stars (1 Cr)",
+"league": "WPL"
+},
+{
+"id": 344,
+"name": "Kiran Navgire",
+"role": "Batter",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 5,
+"set_name": "WPL Indian Stars (1 Cr)",
+"league": "WPL"
+},
+{
+"id": 345,
+"name": "Kranti Goud",
+"role": "Bowler",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 5,
+"set_name": "WPL Indian Stars (1 Cr)",
+"league": "WPL"
+},
+{
+"id": 346,
+"name": "Shikha Pandey",
+"role": "Bowler",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 5,
+"set_name": "WPL Indian Stars (1 Cr)",
+"league": "WPL"
+},
+{
+"id": 347,
+"name": "Asha Sobhana",
+"role": "Bowler",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 5,
+"set_name": "WPL Indian Stars (1 Cr)",
+"league": "WPL"
+},
+{
+"id": 348,
+"name": "Yastika Bhatia",
+"role": "Wicketkeeper",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 5,
+"set_name": "WPL Indian Stars (1 Cr)",
+"league": "WPL"
+},
+{
+"id": 349,
+"name": "Renuka Singh Thakur",
+"role": "Bowler",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 5,
+"set_name": "WPL Indian Stars (1 Cr)",
+"league": "WPL"
+},
+{
+"id": 350,
+"name": "Kashvee Gautam",
+"role": "Bowler",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 5,
+"set_name": "WPL Indian Stars (1 Cr)",
+"league": "WPL"
+},
+{
+"id": 351,
+"name": "Sneh Rana",
+"role": "Allrounder",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 5,
+"set_name": "WPL Indian Stars (1 Cr)",
+"league": "WPL"
+},
+{
+"id": 352,
+"name": "Pooja Vastrakar",
+"role": "Allrounder",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 5,
+"set_name": "WPL Indian Stars (1 Cr)",
+"league": "WPL"
+},
+{
+"id": 353,
+"name": "Sajeevan Sajana",
+"role": "Batter",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 5,
+"set_name": "WPL Indian Stars (1 Cr)",
+"league": "WPL"
+},
+{
+"id": 354,
+"name": "Arundhati Reddy",
+"role": "Bowler",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 5,
+"set_name": "WPL Indian Stars (1 Cr)",
+"league": "WPL"
+},
+{
+"id": 355,
+"name": "Pratika Rawal",
+"role": "Batter",
+"base_price": 1.0,
+"nationality": "Indian",
+"set": 5,
+"set_name": "WPL Indian Stars (1 Cr)",
+"league": "WPL"
+},
+{
+"id": 356,
+"name": "Minnu Mani",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 6,
+"set_name": "WPL Indian Domestic Set A (0.5 Cr)",
+"league": "WPL"
+},
+{
+"id": 357,
+"name": "Nandni Sharma",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 6,
+"set_name": "WPL Indian Domestic Set A (0.5 Cr)",
+"league": "WPL"
+},
+{
+"id": 358,
+"name": "Kanika Ahuja",
+"role": "Batter",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 6,
+"set_name": "WPL Indian Domestic Set A (0.5 Cr)",
+"league": "WPL"
+},
+{
+"id": 359,
+"name": "Prema Rawat",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 6,
+"set_name": "WPL Indian Domestic Set A (0.5 Cr)",
+"league": "WPL"
+},
+{
+"id": 360,
+"name": "Vrinda Dinesh",
+"role": "Batter",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 6,
+"set_name": "WPL Indian Domestic Set A (0.5 Cr)",
+"league": "WPL"
+},
+{
+"id": 361,
+"name": "Disha Kasat",
+"role": "Batter",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 6,
+"set_name": "WPL Indian Domestic Set A (0.5 Cr)",
+"league": "WPL"
+},
+{
+"id": 362,
+"name": "Shweta Sehrawat",
+"role": "Batter",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 6,
+"set_name": "WPL Indian Domestic Set A (0.5 Cr)",
+"league": "WPL"
+},
+{
+"id": 363,
+"name": "Sanskriti Gupta",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 6,
+"set_name": "WPL Indian Domestic Set A (0.5 Cr)",
+"league": "WPL"
+},
+{
+"id": 364,
+"name": "Vaishnavi Sharma",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 6,
+"set_name": "WPL Indian Domestic Set A (0.5 Cr)",
+"league": "WPL"
+},
+{
+"id": 365,
+"name": "G. Kamalini",
+"role": "Batter",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 6,
+"set_name": "WPL Indian Domestic Set A (0.5 Cr)",
+"league": "WPL"
+},
+{
+"id": 366,
+"name": "Tanuja Kanwar",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 6,
+"set_name": "WPL Indian Domestic Set A (0.5 Cr)",
+"league": "WPL"
+},
+{
+"id": 367,
+"name": "Anushka Sharma",
+"role": "Batter",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 6,
+"set_name": "WPL Indian Domestic Set A (0.5 Cr)",
+"league": "WPL"
+},
+{
+"id": 368,
+"name": "Rajeshwari Gayakwad",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 6,
+"set_name": "WPL Indian Domestic Set A (0.5 Cr)",
+"league": "WPL"
+},
+{
+"id": 369,
+"name": "Niki Prasad",
+"role": "Batter",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 6,
+"set_name": "WPL Indian Domestic Set A (0.5 Cr)",
+"league": "WPL"
+},
+{
+"id": 370,
+"name": "Uma Chetry",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 7,
+"set_name": "WPL Indian Domestic Set B (0.5 Cr)",
+"league": "WPL"
+},
+{
+"id": 371,
+"name": "Nazma Khan",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 7,
+"set_name": "WPL Indian Domestic Set B (0.5 Cr)",
+"league": "WPL"
+},
+{
+"id": 372,
+"name": "Madiwala Mamatha",
+"role": "Wicketkeeper",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 7,
+"set_name": "WPL Indian Domestic Set B (0.5 Cr)",
+"league": "WPL"
+},
+{
+"id": 373,
+"name": "Deeya Yadav",
+"role": "Batter",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 7,
+"set_name": "WPL Indian Domestic Set B (0.5 Cr)",
+"league": "WPL"
+},
+{
+"id": 374,
+"name": "Sushma Verma",
+"role": "Wicketkeeper",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 7,
+"set_name": "WPL Indian Domestic Set B (0.5 Cr)",
+"league": "WPL"
+},
+{
+"id": 375,
+"name": "Manali Dakshini",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 7,
+"set_name": "WPL Indian Domestic Set B (0.5 Cr)",
+"league": "WPL"
+},
+{
+"id": 376,
+"name": "Shipra Giri",
+"role": "Wicketkeeper",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 7,
+"set_name": "WPL Indian Domestic Set B (0.5 Cr)",
+"league": "WPL"
+},
+{
+"id": 377,
+"name": "Sahana Pawar",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 7,
+"set_name": "WPL Indian Domestic Set B (0.5 Cr)",
+"league": "WPL"
+},
+{
+"id": 378,
+"name": "Simran Shaikh",
+"role": "Batter",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 7,
+"set_name": "WPL Indian Domestic Set B (0.5 Cr)",
+"league": "WPL"
+},
+{
+"id": 379,
+"name": "Jintimani Kalita",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 7,
+"set_name": "WPL Indian Domestic Set B (0.5 Cr)",
+"league": "WPL"
+},
+{
+"id": 380,
+"name": "Happy Kumari",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 7,
+"set_name": "WPL Indian Domestic Set B (0.5 Cr)",
+"league": "WPL"
+},
+{
+"id": 381,
+"name": "Samaira Raghav",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 7,
+"set_name": "WPL Indian Domestic Set B (0.5 Cr)",
+"league": "WPL"
+},
+{
+"id": 382,
+"name": "Akshita Bhagat",
+"role": "Allrounder",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 7,
+"set_name": "WPL Indian Domestic Set B (0.5 Cr)",
+"league": "WPL"
+},
+{
+"id": 383,
+"name": "Saanika Chalke",
+"role": "Batter",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 7,
+"set_name": "WPL Indian Domestic Set B (0.5 Cr)",
+"league": "WPL"
+},
+{
+"id": 384,
+"name": "Rahila Firdous",
+"role": "Wicketkeeper",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 7,
+"set_name": "WPL Indian Domestic Set B (0.5 Cr)",
+"league": "WPL"
+},
+{
+"id": 385,
+"name": "Latika Inamdar",
+"role": "Wicketkeeper",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 7,
+"set_name": "WPL Indian Domestic Set B (0.5 Cr)",
+"league": "WPL"
+},
+{
+"id": 386,
+"name": "Bharti Rawal",
+"role": "Bowler",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 7,
+"set_name": "WPL Indian Domestic Set B (0.5 Cr)",
+"league": "WPL"
+},
+{
+"id": 387,
+"name": "Tejal Hasabnis",
+"role": "Batter",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 7,
+"set_name": "WPL Indian Domestic Set B (0.5 Cr)",
+"league": "WPL"
+},
+{
+"id": 388,
+"name": "Kumar Prathyoosha",
+"role": "Wicketkeeper",
+"base_price": 0.5,
+"nationality": "Indian",
+"set": 7,
+"set_name": "WPL Indian Domestic Set B (0.5 Cr)",
+"league": "WPL"
+}
+]
 ​def unescape_md(text: str) -> str:
 return str(text).replace("\", "").replace("\", "").replace("\", "") if text else ""
 ​def escape_md(text: str) -> str:
@@ -189,30 +3570,6 @@ db.close()
 ​def get_db_connection():
 raw_conn, is_pg = _connect_raw()
 return DBWrapper(raw_conn, is_pg)
-​def is_scorer(user_id: int) -> bool:
-if user_id == SUPER_ADMIN_ID:
-return True
-conn = get_db_connection()
-row = conn.execute("SELECT 1 FROM scorers WHERE user_id = ?", (user_id,)).fetchone()
-conn.close()
-return row is not None
-​def find_player_master(query: str, league: Optional[str] = None) -> Optional[dict]:
-conn = get_db_connection()
-q = query.strip()
-if q.startswith("#") and q[1:].isdigit():
-q = q[1:]
-if q.isdigit():
-if league:
-row = conn.execute("SELECT * FROM master_players WHERE player_id = ? AND league = ?", (int(q), league)).fetchone()
-else:
-row = conn.execute("SELECT * FROM master_players WHERE player_id = ?", (int(q),)).fetchone()
-else:
-if league:
-row = conn.execute("SELECT * FROM master_players WHERE LOWER(name) LIKE LOWER(?) AND league = ? ORDER BY player_id ASC LIMIT 1", (f"%{q}%", league)).fetchone()
-else:
-row = conn.execute("SELECT * FROM master_players WHERE LOWER(name) LIKE LOWER(?) ORDER BY player_id ASC LIMIT 1", (f"%{q}%",)).fetchone()
-conn.close()
-return dict(row) if row else None
 ​==============================================================================
 ​IN-MEMORY LIVE AUCTION & SET11 SESSIONS
 ​==============================================================================
@@ -264,6 +3621,53 @@ for t_name, info in auction.teams.items():
 if info["owner_id"] == user_id:
 return t_name
 return None
+​def find_player_master(query: str, league: Optional[str] = None) -> Optional[dict]:
+if not query:
+return None
+q = query.strip().lstrip("#")
+conn = get_db_connection()
+try:
+if q.isdigit():
+pid = int(q)
+if league:
+row = conn.execute(
+"SELECT * FROM master_players WHERE player_id = ? AND league = ?",
+(pid, league)
+).fetchone()
+else:
+row = conn.execute(
+"SELECT * FROM master_players WHERE player_id = ?",
+(pid,)
+).fetchone()
+return dict(row) if row else None
+​like_q = f"%{q}%"
+if league:
+rows = conn.execute(
+"SELECT * FROM master_players WHERE LOWER(name) LIKE LOWER(?) AND league = ? ORDER BY player_id ASC",
+(like_q, league)
+).fetchall()
+else:
+rows = conn.execute(
+"SELECT * FROM master_players WHERE LOWER(name) LIKE LOWER(?) ORDER BY player_id ASC",
+(like_q,)
+).fetchall()
+​if not rows:
+return None
+for r in rows:
+if r["name"].lower() == q.lower():
+return dict(r)
+return dict(rows[0])
+finally:
+conn.close()
+​def is_scorer(user_id: int) -> bool:
+if user_id == SUPER_ADMIN_ID:
+return True
+conn = get_db_connection()
+try:
+row = conn.execute("SELECT 1 FROM scorers WHERE user_id = ?", (user_id,)).fetchone()
+return row is not None
+finally:
+conn.close()
 ​def calculate_effective_team_points(playing_11_ids: List[int], impact_ids: List[int]) -> Tuple[float, List[dict], List[str], set]:
 conn = get_db_connection()
 all_ids = playing_11_ids + impact_ids
@@ -1314,8 +4718,8 @@ await update.message.reply_text(f"✅ Set total points of {escape_md(p['name'])}
 offset = page * 10
 conn = get_db_connection()
 rows = conn.execute("SELECT * FROM master_players ORDER BY points DESC, player_id ASC LIMIT 10 OFFSET ?", (offset,)).fetchall()
-total_row = conn.execute("SELECT COUNT(*) AS cnt FROM master_players").fetchone()
-total = total_row["cnt"] if isinstance(total_row, dict) else total_row[0]
+total_row = conn.execute("SELECT COUNT(*) FROM master_players").fetchone()
+total = total_row[0] if isinstance(total_row, (tuple, list)) else list(total_row.values())[0]
 conn.close()
 ​lines = [f"🌟 TOP FANTASY PLAYERS (Page {page + 1}) 🌟", "━━━━━━━━━━━━━━━━━━━━"]
 for idx, r in enumerate(rows, offset + 1):
