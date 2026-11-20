@@ -3468,7 +3468,7 @@ class DBWrapper:
         cur = self.conn.cursor()
         q, p = _adapt_sql_and_params(sql, params)
         cur.execute(q, p)
-        return cur
+        return _CursorWrapper(cur, self.is_pg)
 
     def cursor(self):
         return _CursorWrapper(self.conn.cursor(), self.is_pg)
@@ -3493,7 +3493,7 @@ class _CursorWrapper:
         row = self.cur.fetchone()
         if row is None:
             return None
-        if self.is_pg and self.cur.description:
+        if self.is_pg and isinstance(row, tuple) and self.cur.description:
             cols = [d[0] for d in self.cur.description]
             return dict(zip(cols, row))
         return row
@@ -3502,7 +3502,7 @@ class _CursorWrapper:
         rows = self.cur.fetchall()
         if self.is_pg and self.cur.description:
             cols = [d[0] for d in self.cur.description]
-            return [dict(zip(cols, r)) for r in rows]
+            return [dict(zip(cols, r)) if isinstance(r, tuple) else r for r in rows]
         return rows
 
 def _connect_raw():
@@ -5285,7 +5285,6 @@ async def _run_bot_and_web():
     app.add_handler(CommandHandler(["set_points"], set_points_cmd))
     app.add_handler(CommandHandler(["top_players"], top_players_cmd))
     app.add_handler(CallbackQueryHandler(callback_handler))
-
 
     async with app:
         await app.start()
