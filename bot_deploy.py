@@ -17,6 +17,10 @@ from telegram.ext import (
     ContextTypes,
 )
 from telegram.constants import ParseMode
+from aiohttp import web
+
+DATABASE_URL = os.getenv("DATABASE_URL", "")
+PORT = int(os.getenv("PORT", "8080"))
 
 # ==============================================================================
 # CONFIGURATION
@@ -3424,11 +3428,96 @@ def escape_md(text: str) -> str:
     return str(text).replace("_", "\\_").replace("*", "\\*").replace("`", "\\`")
 
 # ==============================================================================
-# DATABASE SETUP & HELPERS
+# DATABASE SETUP & HELPERS (SUPABASE POSTGRESQL + SQLITE FALLBACK)
 # ==============================================================================
-def init_db():
+def _pg_sql(sql: str) -> str:
+    return sql.replace("?", "%s")
+
+def _adapt_sql_and_params(sql: str, params: tuple):
+    if not DATABASE_URL:
+        return sql, params
+    s = sql.strip()
+    if s.upper().startswith("INSERT OR REPLACE INTO AUCTIONS"):
+        s = _pg_sql(s).replace("INSERT OR REPLACE INTO auctions", "INSERT INTO auctions")
+        s += " ON CONFLICT (auction_id) DO UPDATE SET chat_id=EXCLUDED.chat_id, league_type=EXCLUDED.league_type, auctioneer_id=EXCLUDED.auctioneer_id, purse_limit=EXCLUDED.purse_limit, max_players=EXCLUDED.max_players, min_players=EXCLUDED.min_players, max_foreign=EXCLUDED.max_foreign, status=EXCLUDED.status"
+        return s, params
+    if s.upper().startswith("INSERT OR REPLACE INTO AUCTION_TEAMS"):
+        s = _pg_sql(s).replace("INSERT OR REPLACE INTO auction_teams", "INSERT INTO auction_teams")
+        s += " ON CONFLICT (auction_id, team_name) DO UPDATE SET owner_id=EXCLUDED.owner_id, owner_name=EXCLUDED.owner_name, remaining_purse=EXCLUDED.remaining_purse"
+        return s, params
+    if s.upper().startswith("INSERT OR REPLACE INTO AUCTION_PURCHASES"):
+        s = _pg_sql(s).replace("INSERT OR REPLACE INTO auction_purchases", "INSERT INTO auction_purchases")
+        s += " ON CONFLICT (auction_id, player_id) DO UPDATE SET team_name=EXCLUDED.team_name, sold_price=EXCLUDED.sold_price"
+        return s, params
+    if s.upper().startswith("INSERT OR REPLACE INTO SCORERS"):
+        s = _pg_sql(s).replace("INSERT OR REPLACE INTO scorers", "INSERT INTO scorers")
+        s += " ON CONFLICT (user_id) DO UPDATE SET username=EXCLUDED.username"
+        return s, params
+    if "ON CONFLICT(player_id) DO UPDATE SET" in s:
+        s = _pg_sql(s).replace("ON CONFLICT(player_id) DO UPDATE SET", "ON CONFLICT (player_id) DO UPDATE SET")
+        s = s.replace("excluded.name", "EXCLUDED.name").replace("excluded.role", "EXCLUDED.role").replace("excluded.base_price", "EXCLUDED.base_price").replace("excluded.nationality", "EXCLUDED.nationality").replace("excluded.set_no", "EXCLUDED.set_no").replace("excluded.set_name", "EXCLUDED.set_name").replace("excluded.league", "EXCLUDED.league")
+        return s, params
+    return _pg_sql(s), params
+
+class DBWrapper:
+    def __init__(self, conn, is_pg: bool):
+        self.conn = conn
+        self.is_pg = is_pg
+
+    def execute(self, sql: str, params: tuple = ()):
+        cur = self.conn.cursor()
+        q, p = _adapt_sql_and_params(sql, params)
+        cur.execute(q, p)
+        return cur
+
+    def cursor(self):
+        return _CursorWrapper(self.conn.cursor(), self.is_pg)
+
+    def commit(self):
+        self.conn.commit()
+
+    def close(self):
+        self.conn.close()
+
+class _CursorWrapper:
+    def __init__(self, cur, is_pg: bool):
+        self.cur = cur
+        self.is_pg = is_pg
+
+    def execute(self, sql: str, params: tuple = ()):
+        q, p = _adapt_sql_and_params(sql, params)
+        self.cur.execute(q, p)
+        return self
+
+    def fetchone(self):
+        row = self.cur.fetchone()
+        if row is None:
+            return None
+        if self.is_pg and self.cur.description:
+            cols = [d[0] for d in self.cur.description]
+            return dict(zip(cols, row))
+        return row
+
+    def fetchall(self):
+        rows = self.cur.fetchall()
+        if self.is_pg and self.cur.description:
+            cols = [d[0] for d in self.cur.description]
+            return [dict(zip(cols, r)) for r in rows]
+        return rows
+
+def _connect_raw():
+    if DATABASE_URL:
+        import psycopg2
+        conn = psycopg2.connect(DATABASE_URL)
+        return conn, True
     conn = sqlite3.connect(DB_PATH)
-    c = conn.cursor()
+    conn.row_factory = sqlite3.Row
+    return conn, False
+
+def init_db():
+    raw_conn, is_pg = _connect_raw()
+    db = DBWrapper(raw_conn, is_pg)
+    c = db.cursor()
     c.execute("""
         CREATE TABLE IF NOT EXISTS master_players (
             player_id INTEGER PRIMARY KEY,
@@ -3442,23 +3531,18 @@ def init_db():
             points REAL DEFAULT 0.0
         )
     """)
-    # Migrate existing table if league column didn't exist in an older DB
-    cols = [row[1] for row in c.execute("PRAGMA table_info(master_players)").fetchall()]
-    if "league" not in cols:
-        c.execute("ALTER TABLE master_players ADD COLUMN league TEXT DEFAULT 'IPL'")
-
     c.execute("""
         CREATE TABLE IF NOT EXISTS scorers (
-            user_id INTEGER PRIMARY KEY,
+            user_id BIGINT PRIMARY KEY,
             username TEXT
         )
     """)
     c.execute("""
         CREATE TABLE IF NOT EXISTS auctions (
             auction_id TEXT PRIMARY KEY,
-            chat_id INTEGER,
+            chat_id BIGINT,
             league_type TEXT,
-            auctioneer_id INTEGER,
+            auctioneer_id BIGINT,
             purse_limit REAL,
             max_players INTEGER,
             min_players INTEGER,
@@ -3470,7 +3554,7 @@ def init_db():
         CREATE TABLE IF NOT EXISTS auction_teams (
             auction_id TEXT,
             team_name TEXT,
-            owner_id INTEGER,
+            owner_id BIGINT,
             owner_name TEXT,
             remaining_purse REAL,
             playing_11 TEXT DEFAULT '[]',
@@ -3488,7 +3572,6 @@ def init_db():
         )
     """)
 
-    # Insert or sync all 338 IPL + WPL players while preserving any existing points!
     for p in EMBEDDED_PLAYERS:
         c.execute("""
             INSERT INTO master_players (player_id, name, role, base_price, nationality, set_no, set_name, league, points)
@@ -3502,39 +3585,12 @@ def init_db():
                 set_name=excluded.set_name,
                 league=excluded.league
         """, (p["id"], p["name"], p["role"], p["base_price"], p["nationality"], p["set"], p["set_name"], p.get("league", "IPL")))
-    conn.commit()
-    conn.close()
+    db.commit()
+    db.close()
 
 def get_db_connection():
-    conn = sqlite3.connect(DB_PATH)
-    conn.row_factory = sqlite3.Row
-    return conn
-
-def is_scorer(user_id: int) -> bool:
-    if user_id == SUPER_ADMIN_ID:
-        return True
-    conn = get_db_connection()
-    row = conn.execute("SELECT 1 FROM scorers WHERE user_id = ?", (user_id,)).fetchone()
-    conn.close()
-    return row is not None
-
-def find_player_master(query_str: str, league: Optional[str] = None) -> Optional[dict]:
-    conn = get_db_connection()
-    if query_str.isdigit():
-        row = conn.execute("SELECT * FROM master_players WHERE player_id = ?", (int(query_str),)).fetchone()
-    else:
-        if league:
-            row = conn.execute(
-                "SELECT * FROM master_players WHERE LOWER(name) LIKE ? AND league = ?",
-                (f"%{query_str.lower()}%", league)
-            ).fetchone()
-        else:
-            row = conn.execute(
-                "SELECT * FROM master_players WHERE LOWER(name) LIKE ?",
-                (f"%{query_str.lower()}%",)
-            ).fetchone()
-    conn.close()
-    return dict(row) if row else None
+    raw_conn, is_pg = _connect_raw()
+    return DBWrapper(raw_conn, is_pg)
 
 # ==============================================================================
 # IN-MEMORY LIVE AUCTION & SET11 SESSIONS
@@ -4505,7 +4561,7 @@ async def myteamlist_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
         FROM auction_teams at
         JOIN auctions a ON at.auction_id = a.auction_id
         WHERE at.owner_id = ?
-        ORDER BY a.rowid DESC
+        ORDER BY a.auction_id DESC
     """, (user_id,)).fetchall()
     conn.close()
 
@@ -4610,7 +4666,7 @@ async def set11_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
         auction_id = context.args[0].upper()
     else:
         row = conn.execute(
-            "SELECT auction_id FROM auction_teams WHERE owner_id = ? ORDER BY rowid DESC LIMIT 1",
+            "SELECT auction_id FROM auction_teams WHERE owner_id = ? ORDER BY auction_id DESC LIMIT 1",
             (user_id,)
         ).fetchone()
         if row:
@@ -4715,7 +4771,7 @@ async def ranking_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if context.args:
         auction_id = context.args[0].upper()
     else:
-        row = conn.execute("SELECT auction_id FROM auctions WHERE chat_id = ? ORDER BY rowid DESC LIMIT 1", (update.effective_chat.id,)).fetchone()
+        row = conn.execute("SELECT auction_id FROM auctions WHERE chat_id = ? ORDER BY auction_id DESC LIMIT 1", (update.effective_chat.id,)).fetchone()
         if not row:
             conn.close()
             await update.message.reply_text("📌 Usage: `/ranking <auction_unique_id>`", parse_mode=ParseMode.MARKDOWN)
@@ -5177,8 +5233,18 @@ async def callback_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # ==============================================================================
 # MAIN ENTRYPOINT
 # ==============================================================================
-def main():
-    init_db()
+async def _health_handler(request):
+    return web.Response(text="OK - Mock Auction Bot Alive")
+
+async def _run_bot_and_web():
+    print(f"🌐 Health server listening on 0.0.0.0:{PORT}")
+
+    try:
+        await asyncio.to_thread(init_db)
+        print("✅ Database initialized successfully.")
+    except Exception as e:
+        print(f"⚠️ init_db error: {e}")
+
     app = Application.builder().token(BOT_TOKEN).build()
 
     app.add_handler(CommandHandler(["help", "Help"], help_cmd))
@@ -5211,11 +5277,18 @@ def main():
     app.add_handler(CommandHandler(["add_points"], add_points_cmd))
     app.add_handler(CommandHandler(["set_points"], set_points_cmd))
     app.add_handler(CommandHandler(["top_players"], top_players_cmd))
-
     app.add_handler(CallbackQueryHandler(callback_handler))
 
-    print("🏏 Mock IPL/WPL Auction Bot v5 is running...")
-    app.run_polling()
+
+    async with app:
+        await app.start()
+        await app.updater.start_polling()
+        print(f"🏏 Mock IPL/WPL Auction Bot running with health server on port {PORT}...")
+        while True:
+            await asyncio.sleep(3600)
+
+def main():
+    asyncio.run(_run_bot_and_web())
 
 if __name__ == "__main__":
     main()
