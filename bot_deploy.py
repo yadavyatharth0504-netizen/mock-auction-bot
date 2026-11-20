@@ -4916,26 +4916,67 @@ async def set_points_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
     conn.close()
     await update.message.reply_text(f"✅ Set total points of *{escape_md(p['name'])}* (`#{p['player_id']}` - {p['league']}) to *{pts:.1f} pts*.", parse_mode=ParseMode.MARKDOWN)
 
-def render_top_players_page(page: int) -> Tuple[str, InlineKeyboardMarkup]:
+def render_top_players_page(page: int, league: str = "ALL") -> Tuple[str, InlineKeyboardMarkup]:
+    league_norm = (league or "ALL").upper()
+    if league_norm not in ("ALL", "IPL", "WPL"):
+        league_norm = "ALL"
+
     offset = page * 10
     conn = get_db_connection()
-    rows = conn.execute("SELECT * FROM master_players ORDER BY points DESC, player_id ASC LIMIT 10 OFFSET ?", (offset,)).fetchall()
-    total = conn.execute("SELECT COUNT(*) FROM master_players").fetchone()[0]
+    if league_norm in ("IPL", "WPL"):
+        rows = conn.execute(
+            "SELECT * FROM master_players WHERE league = ? ORDER BY points DESC, player_id ASC LIMIT 10 OFFSET ?",
+            (league_norm, offset)
+        ).fetchall()
+        cnt_row = conn.execute(
+            "SELECT COUNT(*) AS cnt FROM master_players WHERE league = ?",
+            (league_norm,)
+        ).fetchone()
+    else:
+        rows = conn.execute(
+            "SELECT * FROM master_players ORDER BY points DESC, player_id ASC LIMIT 10 OFFSET ?",
+            (offset,)
+        ).fetchall()
+        cnt_row = conn.execute("SELECT COUNT(*) AS cnt FROM master_players").fetchone()
+    total = cnt_row["cnt"] if isinstance(cnt_row, dict) else cnt_row[0]
     conn.close()
 
-    lines = [f"🌟 *TOP FANTASY PLAYERS (Page {page + 1})* 🌟", "━━━━━━━━━━━━━━━━━━━━"]
-    for idx, r in enumerate(rows, offset + 1):
-        lines.append(f"*{idx}.* *{escape_md(r['name'])}* (`#{r['player_id']}` | {r['league']}) — *{r['points']:.1f} Pts*")
+    header_title = f"TOP {league_norm} FANTASY PLAYERS" if league_norm != "ALL" else "TOP FANTASY PLAYERS"
+    lines = [f"🌟 *{header_title} (Page {page + 1})* 🌟", "━━━━━━━━━━━━━━━━━━━━"]
+    if not rows:
+        lines.append("_No players found for this filter._")
+    else:
+        for idx, r in enumerate(rows, offset + 1):
+            lines.append(f"*{idx}.* *{escape_md(r['name'])}* (`#{r['player_id']}` | {r['league']}) — *{r['points']:.1f} Pts*")
 
+    keyboard_rows = []
     nav = []
     if page > 0:
-        nav.append(InlineKeyboardButton("⬅️ Previous", callback_data=f"topp_{page - 1}"))
+        nav.append(InlineKeyboardButton("⬅️ Previous", callback_data=f"topp_{league_norm}_{page - 1}"))
     if offset + 10 < total:
-        nav.append(InlineKeyboardButton("Next ➡️", callback_data=f"topp_{page + 1}"))
-    return "\n".join(lines), InlineKeyboardMarkup([nav] if nav else [])
+        nav.append(InlineKeyboardButton("Next ➡️", callback_data=f"topp_{league_norm}_{page + 1}"))
+    if nav:
+        keyboard_rows.append(nav)
+
+    filter_row = [
+        InlineKeyboardButton("🏏 IPL" + (" ✅" if league_norm == "IPL" else ""), callback_data="topp_IPL_0"),
+        InlineKeyboardButton("🏆 WPL" + (" ✅" if league_norm == "WPL" else ""), callback_data="topp_WPL_0"),
+        InlineKeyboardButton("🌐 All" + (" ✅" if league_norm == "ALL" else ""), callback_data="topp_ALL_0"),
+    ]
+    keyboard_rows.append(filter_row)
+
+    return "\n".join(lines), InlineKeyboardMarkup(keyboard_rows)
 
 async def top_players_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    text, markup = render_top_players_page(0)
+    league_arg = "ALL"
+    if context.args and context.args[0].upper() in ("IPL", "WPL", "ALL"):
+        league_arg = context.args[0].upper()
+    else:
+        auction = live_auctions.get(update.effective_chat.id)
+        if auction and auction.league_type in ("IPL", "WPL"):
+            league_arg = auction.league_type
+
+    text, markup = render_top_players_page(0, league=league_arg)
     await update.message.reply_text(text, reply_markup=markup, parse_mode=ParseMode.MARKDOWN)
 
 # ==============================================================================
@@ -5122,10 +5163,17 @@ async def callback_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
         )
         return
 
-    # 5. Pagination for Top Players
+    # 5. Pagination & League Filter for Top Players
     if data.startswith("topp_"):
-        page = int(data.replace("topp_", ""))
-        text, markup = render_top_players_page(page)
+        payload = data.replace("topp_", "", 1)
+        if "_" in payload:
+            lg, pg_str = payload.rsplit("_", 1)
+            page = int(pg_str)
+            text, markup = render_top_players_page(page, league=lg)
+        else:
+            page = int(payload)
+            text, markup = render_top_players_page(page, league="ALL")
+        await query.answer()
         await query.edit_message_text(text, reply_markup=markup, parse_mode=ParseMode.MARKDOWN)
         return
 
