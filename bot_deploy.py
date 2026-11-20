@@ -3606,11 +3606,11 @@ class LiveAuction:
         self.paused: bool = False
         self.automode: bool = False
 
-        # Conditions (Defaults: 120 Cr, Max 25, Min 18, Max Foreign 8)
+        # Conditions (Defaults: 120 Cr, Max 15, Min 11, Max Foreign 6)
         self.purse_limit: float = 120.0
-        self.max_players: int = 25
-        self.min_players: int = 18
-        self.max_foreign: int = 8
+        self.max_players: int = 15
+        self.min_players: int = 11
+        self.max_foreign: int = 6
 
         # Teams & Owners: team_name -> {owner_id, owner_name, purse, squad: List[dict]}
         self.teams: Dict[str, dict] = {}
@@ -3768,7 +3768,7 @@ async def help_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "• `/top_players` - View top fantasy point scorers\n\n"
         "🔨 *Auctioneer Commands:*\n"
         "• `/change_auctioneer` - Transfer Auctioneer role (Reply/mention user or click button)\n"
-        "• `/set_conditions <purse> <max_p> <min_p> <max_f>` - Set custom rules (Default: 120 25 18 8)\n"
+        "• `/set_conditions <purse> <max_p> <min_p> <max_f>` - Set custom rules (Default: 120 15 11 6)\n"
         "• `/add_owner` - Reply/mention user to assign a team\n"
         "• `/remove_owner` - Remove an owner (players go to unsold)\n"
         "• `/replace_owner` - Reply/mention new user to replace an existing owner\n"
@@ -3881,7 +3881,7 @@ async def set_conditions_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE)
             await update.message.reply_text("❌ Format: `/set_conditions <purse> <max_player> <min_player> <max_foreign>`", parse_mode=ParseMode.MARKDOWN)
             return
     else:
-        auction.purse_limit, auction.max_players, auction.min_players, auction.max_foreign = 120.0, 25, 18, 8
+        auction.purse_limit, auction.max_players, auction.min_players, auction.max_foreign = 120.0, 15, 11, 6
 
     for t in auction.teams.values():
         t["purse"] = auction.purse_limit
