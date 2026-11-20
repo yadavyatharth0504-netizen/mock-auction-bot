@@ -1,3 +1,48 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=18mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+
+\definecolor{codebg}{HTML}{F6F8FA}
+\definecolor{codeframe}{HTML}{D0D7DE}
+\definecolor{keywordcolor}{HTML}{CF222E}
+\definecolor{stringcolor}{HTML}{0A3069}
+\definecolor{commentcolor}{HTML}{57606A}
+
+\lstset{
+    language=Python,
+    backgroundcolor=\color{codebg},
+    frame=single,
+    rulecolor=\color{codeframe},
+    basicstyle=\ttfamily\scriptsize,
+    keywordstyle=\color{keywordcolor}\bfseries,
+    stringstyle=\color{stringcolor},
+    commentstyle=\color{commentcolor}\itshape,
+    breaklines=true,
+    breakatwhitespace=false,
+    tabsize=4,
+    showstringspaces=false,
+    numbers=left,
+    numberstyle=\tiny\color{commentcolor},
+    numbersep=6pt
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Mock IPL/WPL Auction Bot -- Repaired Deployment Code}
+\lhead{bot\_deploy.py}
+\cfoot{\thepage}
+
+\begin{document}
+
+\section*{Mock IPL/WPL Auction Bot -- Repaired Deployment Code (\texttt{bot\_deploy.py})}
+
+This \LaTeX{} document contains the repaired port-first startup code for \texttt{bot\_deploy.py}.
+
+\begin{lstlisting}
 import asyncio
 import json
 import os
@@ -5237,6 +5282,13 @@ async def _health_handler(request):
     return web.Response(text="OK - Mock Auction Bot Alive")
 
 async def _run_bot_and_web():
+    web_app = web.Application()
+    web_app.router.add_get("/", _health_handler)
+    web_app.router.add_get("/health", _health_handler)
+    runner = web.AppRunner(web_app)
+    await runner.setup()
+    site = web.TCPSite(runner, "0.0.0.0", PORT)
+    await site.start()
     print(f"🌐 Health server listening on 0.0.0.0:{PORT}")
 
     try:
@@ -5292,3 +5344,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+\end{lstlisting}
+
+\end{document}
